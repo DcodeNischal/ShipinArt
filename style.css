@@ -1,4 +1,71 @@
 body{
-    color:aliceblue;
+    background: linear-gradient(to right,orange 50%,#fff 50%);
 }
 
+.navbar{
+    background-color: rgb(241, 26, 241);
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 20px;
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+    margin-left:40px;
+    font-size:14px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 30px;
+}
+
+.login-search form{
+    display: flex;
+    margin-right: 10px;
+}
+
+.login-search{
+    display: flex;
+    margin-right: 150px;
+    
+
+}
+
+.login-search .search{
+    background-color: orange;
+    color: #fff;
+    border: none;
+    font-size: 10px;
+    border-radius: 50%;
+    padding:5px;
+}
+
+#search-catagories{
+    width: 150px;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.login-search .login{
+    background-color: orange;
+    color: #fff;
+    border: orange;
+    border-radius: 10px;
+    padding: 5px 10px;
+    padding-left: 20px;
+    font-size: 10px;
+}
