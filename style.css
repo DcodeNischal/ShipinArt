@@ -1,10 +1,11 @@
 body{
-    background: linear-gradient(to right,orange 50%,#fff 50%);
+    background: linear-gradient(to right,orange 48%,#fff 40%);
+    padding: 10px;
 }
 
 .navbar{
     background-color: rgb(241, 26, 241);
-    margin: -10px;
+    margin: -20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,3 +70,51 @@ body{
     padding-left: 20px;
     font-size: 10px;
 }
+
+.slideshow{
+    background-color: rgba(255, 235, 212, 0.7);
+    width: 80%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 10%;
+    border: 3px solid rgb(253, 165, 0,0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    color: rgb(167, 153, 153);
+}
+
+.acrylic{
+    margin-top:100px ;
+}
+
+.acrylic span{
+    font-size: 25px;
+    text-decoration: underline 2px solid white;
+    color: #fff;
+}
+
+.temporary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.catagories-box{
+    width: 25%;
+    height: 350px;
+    background-color: #fff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid black;
+}
+
+.acrylic .temporarry .details span{
+    color: black;
+}
+
