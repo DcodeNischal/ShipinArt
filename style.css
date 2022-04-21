@@ -87,6 +87,12 @@ body{
     color: rgb(167, 153, 153);
 }
 
+.slideshow:hover{
+    background-color: #fff;
+    border: 3px solid black;
+    transition: .7s;
+    font-size: 50px;
+}
 .acrylic{
     margin-top:100px ;
 }
