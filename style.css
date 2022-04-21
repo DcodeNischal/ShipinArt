@@ -139,6 +139,9 @@ body{
    flex-direction: column;
    align-items: center;
 }
+.acrylic .temporary .catagories-box .details .size-price span{
+    text-decoration: none;
+}
 
 .acrylic .temporary .catagories-box .details .size-price span:nth-child(2){
     margin-left: 5px;
