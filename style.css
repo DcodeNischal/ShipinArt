@@ -10,6 +10,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    height: 50px;
 }
 
 .logo{
@@ -74,7 +75,7 @@ body{
 .slideshow{
     background-color: rgba(255, 235, 212, 0.7);
     width: 80%;
-    height: 400px;
+    height: 500px;
     margin-top: 50px;
     margin-left: 10%;
     border: 3px solid rgb(253, 165, 0,0.7);
@@ -88,7 +89,7 @@ body{
 }
 
 .slideshow:hover{
-    background-color: #fff;
+    background-color: rgb(255, 255, 255,0.9);
     border: 3px solid black;
     transition: .7s;
     font-size: 50px;
@@ -112,15 +113,48 @@ body{
 }
 
 .catagories-box{
-    width: 25%;
-    height: 350px;
+    width: 15%;
+    height: 500px;
     background-color: #fff;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border: 1px solid black;
 }
 
-.acrylic .temporarry .details span{
+.acrylic .temporary .details span{
     color: black;
+    font-size: medium;
 }
 
+.acrylic .temporary .catagories-box .picture{
+    width:100%;
+    height: 50%;
+    background-color: bisque;
+
+}
+
+.acrylic .temporary .catagories-box .details{
+    margin-top: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.acrylic .temporary .catagories-box .details .size-price span:nth-child(2){
+    margin-left: 5px;
+}
+
+.acrylic .temporary .catagories-box .cart{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.acrylic .temporary .catagories-box .cart span{
+    background-color: orange ;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+}
