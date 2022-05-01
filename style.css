@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right,orange 48%,#fff 40%);
+    background: linear-gradient(to right,orange 4%,#fff 50% ,orange );
     padding: 10px;
 }
 
@@ -72,11 +72,34 @@ body{
     font-size: 10px;
 }
 
+.catagories-menu{
+    list-style: none;
+    background-color: white;
+    max-width: 500px;
+    padding: 5px 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.catagories-menu-list:hover +.catagories-menu{
+    display: block;
+    max-width: 500px;
+    padding: 5px 20px;
+    padding-bottom: 50px;
+}
+
+.catagories-menu li a{
+    text-decoration: none;
+    color:black;
+}
+
 .slideshow{
     background-color: rgba(255, 235, 212, 0.7);
     width: 80%;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 10%;
     border: 3px solid rgb(253, 165, 0,0.7);
     display: flex;
@@ -86,6 +109,7 @@ body{
     font-weight: bolder;
     padding: 10px;
     color: rgb(167, 153, 153);
+    margin-bottom: 100px;
 }
 
 .slideshow:hover{
@@ -101,10 +125,10 @@ body{
 .acrylic .name{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .acrylic .name span{
     font-size: 25px;
-    text-decoration: underline 1px solid rgba(255, 255, 255, 0.8);
     color: #000;
     background: linear-gradient(to left,orange,#fff) ;
     padding: 5px 100px;
@@ -115,6 +139,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 80px;
     
 }
 
@@ -125,6 +150,12 @@ body{
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     border: 1px solid black;
+}
+
+.catagories-box:hover{
+    transform: scale(1.1);
+    transition: .7s;
+    border-color: rgba(24, 18, 7, 0.8);
 }
 
 .acrylic .temporary .details span{
@@ -148,6 +179,9 @@ body{
 .acrylic .temporary .catagories-box .details .size-price span{
     text-decoration: none;
 }
+.acrylic .temporary .catagories-box .details .size-price span:nth-child(1){
+    color: grey;
+}
 
 .acrylic .temporary .catagories-box .details .size-price span:nth-child(2){
     margin-left: 5px;
@@ -159,11 +193,11 @@ body{
     margin-top: 15px;
 }
 
-.acrylic .temporary .catagories-box .cart span{
-    background-color: orange ;
-    font-size: medium;
-    text-align: center;
-    padding: 5px;
-    text-decoration: none;
-    border-radius: 10px;
+
+.acrylic .temporary .catagories-box .cart button{
+    background-color: orange;
+    padding: 15px;
+    width:fit-content;
+    border: none;
 }
+
