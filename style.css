@@ -325,3 +325,83 @@ body{
     font-size: large;
     margin-bottom: 10px;
 }
+
+.featured{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.featured .brands span{
+    font-size: larger;
+    font-weight:bolder ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.featured .brands{
+    display: flex;
+    flex-direction: column;
+}
+
+.featured .brands .one{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.featured .brands .one img{
+    margin-left: 60px;
+}
+
+.featured .brands img{
+    margin: 0px 20px;
+}
+
+.featured .brands .two{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.featured .brands img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.featured .artists img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.featured .artists span{
+    margin-bottom: 60px;
+    font-size: larger;
+    font-weight:bolder ;
+    text-align: center;
+}
+
+.featured .artists{
+    display: flex;
+    flex-direction: column;
+}
+
+.featured .artists .two{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.featured .artists .two img{
+    margin-left: 60px;
+}
+
+.featured .artists img{
+    margin: 0px 20px;
+}
+
+.featured .artists .two{
+    display: flex;
+    justify-content: space-around;
+}
