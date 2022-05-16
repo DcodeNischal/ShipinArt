@@ -204,9 +204,17 @@ body{
 }
 
 .acrylic .temporary .catagories-box .picture{
-    width:100%;
+    width: 100%;
     height: 50%;
-    background: url(https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057) center no-repeat;
+    contain: strict;
+    display: flex;
+    justify-content: center;
+    background: rgb(5, 248, 236);
+}
+
+.acrylic .temporary .catagories-box .picture .img{
+    width:100%;
+    height: 100%;
 
 }
 
