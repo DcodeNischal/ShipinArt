@@ -140,6 +140,9 @@ body{
 .slideshow a{
     text-decoration: none;
     color: #fff;
+    text-shadow: #000 5px 5px;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .slideshow:hover{
