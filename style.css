@@ -109,12 +109,12 @@ body{
 
 @keyframes godzero {
     0%{
-        background: white;
+        background:url(https://www.itl.cat/pngfile/big/225-2252403_abstract-art-painting-png.jpg);
          
     }
 
     0.000001%{
-        background-color: #000;
+        background:url(https://www.itl.cat/pngfile/big/225-2252403_abstract-art-painting-png.jpg);
     }
 
 
