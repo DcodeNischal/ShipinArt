@@ -198,12 +198,6 @@ body{
     border: 1px solid black;
 }
 
-.catagories-box:hover{
-    transform: scale(1.1);
-    transition: .7s;
-    border-color: rgba(24, 18, 7, 0.8);
-}
-
 .acrylic .temporary .details span{
     color: black;
     font-size: medium;
@@ -248,6 +242,13 @@ body{
     border-radius:15px ;
     font-weight: bolder;
     color: white;
+}
+
+.acrylic .temporary .catagories-box .cart button:hover{
+    background-color: rgb(45, 169, 173);
+    color: rgb(255, 255, 255);
+    transition: .7s;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .join-mail{
