@@ -1,6 +1,6 @@
 body{
     /* background: linear-gradient(to right,orange 4%,#fff 50% ,orange ); */
-    background-color: rgba(0, 255, 255, 0.6);
+    background-color: rgba(0, 255, 255, 0.2);
     padding: 10px;
 }
 
@@ -17,10 +17,18 @@ body{
     z-index:1;
 }
 
-.logo{
+.logo span{
     font-size: 30px;
-    color: #fff;
+    color: red;
     cursor: pointer;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo span:nth-child(2){
+    color: white;
 }
 
 .menu{
@@ -147,7 +155,7 @@ body{
 }
 
 .slideshow:hover{
-    background-color: rgba(58, 51, 51, 0.7);
+    background-color: rgba(0, 236, 225, 0.7);
     border: 3px solid black;
     transition: .7s;
     font-size: 50px;
@@ -185,7 +193,7 @@ body{
 }
 
 .acrylic .temporary i{
-    color: white;
+    color: black;
     font-size: small;
 }
 
@@ -340,77 +348,89 @@ body{
     justify-content: space-around;
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.featured .brands span{
+.featured-image{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.featured .brands p, .featured .artists p{
     font-size: larger;
     font-weight:bolder ;
     text-align: center;
     margin-bottom: 50px;
+    text-decoration: underline 1px solid ;
 }
 
 .featured .brands{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 50%;
 }
-
 .featured .brands .one{
     display: flex;
-    margin: 20px 0px;
-}
-
-.featured .brands .one img{
-    margin-left: 60px;
-}
-
-.featured .brands img{
-    margin: 0px 20px;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .featured .brands .two{
     display: flex;
-    justify-content: space-around;
-}
-
-
-.featured .brands img{
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-}
-
-.featured .artists img{
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-}
-
-.featured .artists span{
-    margin-bottom: 60px;
-    font-size: larger;
-    font-weight:bolder ;
-    text-align: center;
+    justify-content: space-evenly;
+    margin: 0p 30px;
 }
 
 .featured .artists{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.featured .artists .one{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .featured .artists .two{
     display: flex;
-    margin: 20px 0px;
+    justify-content: space-evenly;
 }
 
-.featured .artists .two img{
-    margin-left: 60px;
+.featured img:hover{
+    transform: scale(1.5);
+    z-index: 1;
+    transition: .8s;
 }
 
-.featured .artists img{
-    margin: 0px 20px;
-}
-
-.featured .artists .two{
+.footer-major{
+    width:100% ;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+.last-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.last-footer a{
+    text-decoration: none;
+    color: rgb(37, 118, 121);
 }
