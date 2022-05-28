@@ -158,6 +158,38 @@ body{
     to{border-color: #000;}
 }
 
+.slideshow a:nth-child(2) span::before{
+    content: "ACRYLIC";
+    animation: slidername infinite 50s;
+    animation-fill-mode:both;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+}
+
+@keyframes slidername {
+    0%{
+        content: "ACRYLIC";
+      }
+    25%{
+        content: "OIL";      
+    }
+    50%{
+        content: "MODERN";
+        
+    }
+    75%
+    {
+        content: "SKETCH";
+        
+    }
+    100%
+    {
+        content: "ABSTRACT";
+        
+    }
+}
+
+
 
 .slideshow i{
     font-size: 25px;
