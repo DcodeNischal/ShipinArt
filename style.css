@@ -33,9 +33,9 @@ body{
 .animate-catagories {
     display: inline-block;
     position: relative;
-  }
+}
   
-  .animate-catagories:after {
+.animate-catagories:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -46,12 +46,12 @@ body{
     background-color: #ff6100;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
+}
   
-  .animate-catagories:hover:after {
+.animate-catagories:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
 
 .menu li a{
     text-decoration: none;
@@ -67,8 +67,13 @@ body{
 .login-search{
     display: flex;
     margin-right: 20px;
+    align-items: center;
     
 
+}
+
+.login-search a{
+    text-decoration:none ;
 }
 
 .login-search .search{
@@ -97,6 +102,8 @@ body{
     padding-left: 20px;
     font-size: 10px;
     height: 30px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -169,6 +176,7 @@ body{
 @keyframes slidername {
     0%{
         content: "ACRYLIC";
+        
       }
     25%{
         content: "OIL";      
@@ -216,6 +224,12 @@ body{
 }
 .seperatoro{
     width: 80%;
+}
+
+.seperator .seperatoro hr{
+    border-color: #ffffff;
+    height: 3px;
+    background-color: #ffffff;
 }
 .acrylic{
     margin-top:100px ;
@@ -377,7 +391,7 @@ body{
 
 .help-services .help .help-title{
     font-size: large;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .help-services .services{
@@ -393,7 +407,7 @@ body{
 
 .help-services .services .services-title{
     font-size: large;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .featured{
