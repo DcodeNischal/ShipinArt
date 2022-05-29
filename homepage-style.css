@@ -1,32 +1,32 @@
-body{
+body {
     background-color: rgba(0, 0, 0);
     padding: 10px;
 }
 
-.navbar{
+.navbar {
     margin: -20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     width: 100%;
-    z-index:1;
+    z-index: 1;
     padding: 5px;
     background-color: #000;
 }
 
-.logo img{
+.logo img {
     width: 100px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.menu{
+.menu {
     display: flex;
-    margin-left:40px;
-    font-size:14px;
+    margin-left: 40px;
+    font-size: 14px;
 }
 
-.menu li{
+.menu li {
     list-style: none;
 }
 
@@ -34,7 +34,7 @@ body{
     display: inline-block;
     position: relative;
 }
-  
+
 .animate-catagories:after {
     content: '';
     position: absolute;
@@ -47,52 +47,52 @@ body{
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-  
+
 .animate-catagories:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-.menu li a{
+.menu li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin: 0px 30px;
 }
 
-.login-search form{
+.login-search form {
     display: flex;
     margin-right: 10px;
 }
 
-.login-search{
+.login-search {
     display: flex;
     margin-right: 20px;
     align-items: center;
 }
 
-.login-search a{
-    text-decoration:none ;
+.login-search a {
+    text-decoration: none;
 }
 
-.login-search .search{
+.login-search .search {
     background-color: #ff6100;
     color: #fff;
     border: none;
     font-size: 10px;
     border-radius: 50%;
-    padding:10px;
+    padding: 10px;
     margin-left: 5px;
     cursor: pointer;
 }
 
-#search-catagories{
+#search-catagories {
     width: 150px;
     border-radius: 10px;
     font-size: 10px;
     padding: 3px;
 }
 
-.login-search .login{
+.login-search .login {
     background-color: #ff6100;
     color: rgb(255, 255, 255);
     border: #ff6100;
@@ -105,14 +105,62 @@ body{
     cursor: pointer;
 }
 
-.login-search .login img{
+.login-search .login img {
     margin-right: 3px;
+}
+
+#login-block-wrapper {
+    margin: -20px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.8);
+    z-index: 1;
+    display:none;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 70px;
+    border-radius:50px ;
+
+    
+}
+
+.login-block span {
+    color: #fff;
+    text-decoration: underline;
+    padding: 1em;
+    font-size: 1.3em;
+
+}
+
+.login-block-elements {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.login-block-elements button {
+    background-color: #ff6100;
+    border: none;
+    padding: 30px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
 }
 
 
 
 
-.background-image{
+.background-image {
     /* background: url(https://www.itl.cat/pngfile/big/225-2252403_abstract-art-painting-png.jpg) center no-repeat; */
     width: 80%;
     height: 500px;
@@ -120,36 +168,38 @@ body{
     margin-top: 100px;
     margin-left: 10%;
     animation: slidermovement infinite 50s;
-    animation-fill-mode:both;
+    animation-fill-mode: both;
     animation-timing-function: ease-out;
     animation-direction: alternate;
     margin-bottom: 50px;
 }
 
 @keyframes slidermovement {
-    0%{
-        background:url(https://www.itl.cat/pngfile/big/225-2252403_abstract-art-painting-png.jpg) center no-repeat;
-      }
-    25%{
-        background:url(https://upload.wikimedia.org/wikipedia/commons/1/18/%22Joy_-_Collage_of_Life%22_%2C_Ren%C3%A9_Cheng%2C_oil_painting%2C_2017.jpg);      
+    0% {
+        background: url(https://www.itl.cat/pngfile/big/225-2252403_abstract-art-painting-png.jpg) center no-repeat;
     }
-    50%{
-        background: url(https://cdn.pixabay.com/photo/2018/11/12/18/49/art-3811501_1280.jpg) center ;
-        
+
+    25% {
+        background: url(https://upload.wikimedia.org/wikipedia/commons/1/18/%22Joy_-_Collage_of_Life%22_%2C_Ren%C3%A9_Cheng%2C_oil_painting%2C_2017.jpg);
     }
-    75%
-    {
+
+    50% {
+        background: url(https://cdn.pixabay.com/photo/2018/11/12/18/49/art-3811501_1280.jpg) center;
+
+    }
+
+    75% {
         background: url(https://live.staticflickr.com/3849/32808095950_caee94a1e6_b.jpg);
-        
+
     }
-    100%
-    {
-        background: url(https://cdn.pixabay.com/photo/2017/05/24/19/26/abstract-2341349_1280.jpg) center ;
-        
+
+    100% {
+        background: url(https://cdn.pixabay.com/photo/2017/05/24/19/26/abstract-2341349_1280.jpg) center;
+
     }
 }
 
-.slideshow{
+.slideshow {
     width: 97%;
     height: 496px;
     border: 5px solid rgba(255, 255, 255);
@@ -160,53 +210,61 @@ body{
     font-size: 40px;
     /* color: #fff; */
     padding: 0px 20px;
-    animation:boxborder infinite 5s; 
+    animation: boxborder infinite 5s;
     animation-direction: alternate;
 }
+
 @keyframes boxborder {
-    from{border-color: #fff;}
-    to{border-color: #000;}
+    from {
+        border-color: #fff;
+    }
+
+    to {
+        border-color: #000;
+    }
 }
 
-.slideshow a:nth-child(2) span::before{
+.slideshow a:nth-child(2) span::before {
     content: "ACRYLIC";
     animation: slidername infinite 50s;
-    animation-fill-mode:both;
+    animation-fill-mode: both;
     animation-timing-function: ease-out;
     animation-direction: alternate;
 }
 
 @keyframes slidername {
-    0%{
+    0% {
         content: "ACRYLIC";
-        
-      }
-    25%{
-        content: "OIL";      
+
     }
-    50%{
+
+    25% {
+        content: "OIL";
+    }
+
+    50% {
         content: "MODERN";
-        
+
     }
-    75%
-    {
+
+    75% {
         content: "SKETCH";
-        
+
     }
-    100%
-    {
+
+    100% {
         content: "ABSTRACT";
-        
+
     }
 }
 
 
 
-.slideshow i{
+.slideshow i {
     font-size: 25px;
 }
 
-.slideshow a{
+.slideshow a {
     text-decoration: none;
     color: #fff;
     text-shadow: #000 5px 5px;
@@ -214,42 +272,46 @@ body{
     font-size: larger;
 }
 
-.slideshow:hover{
+.slideshow:hover {
     background-color: rgba(0, 0, 0, 0.7);
     border: 3px solid black;
     transition: .7s;
     font-size: 50px;
     color: #fff;
 }
-.seperator{
+
+.seperator {
     display: flex;
     justify-content: center;
 }
-.seperatoro{
+
+.seperatoro {
     width: 80%;
 }
 
-.seperator .seperatoro hr{
+.seperator .seperatoro hr {
     border-color: #ffffff;
     height: 3px;
     background-color: #ffffff;
 }
-.acrylic{
-    margin-top:100px ;
+
+.acrylic {
+    margin-top: 100px;
 }
 
-.acrylic .name{
+.acrylic .name {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
-.acrylic .name span{
+
+.acrylic .name span {
     font-size: 25px;
     color: #fff;
     padding: 5px 100px;
 }
 
-.temporary{
+.temporary {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -257,12 +319,12 @@ body{
     margin-bottom: 80px;
 }
 
-.acrylic .temporary i{
+.acrylic .temporary i {
     color: rgb(255, 255, 255);
     font-size: small;
 }
 
-.catagories-box{
+.catagories-box {
     width: 15%;
     height: 500px;
     background-color: #fff;
@@ -271,12 +333,12 @@ body{
     border: 1px solid black;
 }
 
-.acrylic .temporary .details span{
+.acrylic .temporary .details span {
     color: black;
     font-size: medium;
 }
 
-.acrylic .temporary .catagories-box .picture{
+.acrylic .temporary .catagories-box .picture {
     width: 100%;
     height: 50%;
     contain: strict;
@@ -285,54 +347,56 @@ body{
     background: rgb(94, 94, 94);
 }
 
-.acrylic .temporary .catagories-box .picture .img{
-    width:100%;
+.acrylic .temporary .catagories-box .picture .img {
+    width: 100%;
     height: 100%;
 
 }
 
-.acrylic .temporary .catagories-box .details{
+.acrylic .temporary .catagories-box .details {
     margin-top: 10px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.acrylic .temporary .catagories-box .details .size-price span{
+
+.acrylic .temporary .catagories-box .details .size-price span {
     text-decoration: none;
 }
-.acrylic .temporary .catagories-box .details .size-price span:nth-child(1){
+
+.acrylic .temporary .catagories-box .details .size-price span:nth-child(1) {
     color: grey;
 }
 
-.acrylic .temporary .catagories-box .details .size-price span:nth-child(2){
+.acrylic .temporary .catagories-box .details .size-price span:nth-child(2) {
     margin-left: 5px;
 }
 
-.acrylic .temporary .catagories-box .cart{
+.acrylic .temporary .catagories-box .cart {
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
 
 
-.acrylic .temporary .catagories-box .cart button{
+.acrylic .temporary .catagories-box .cart button {
     background-color: #ff6100;
     padding: 15px;
-    width:fit-content;
+    width: fit-content;
     border: none;
-    border-radius:15px ;
+    border-radius: 15px;
     font-weight: bolder;
     color: white;
 }
 
-.acrylic .temporary .catagories-box .cart button:hover{
+.acrylic .temporary .catagories-box .cart button:hover {
     background-color: #ff6100;
     color: rgb(255, 255, 255);
     transition: .7s;
     border: 1px solid rgb(255, 255, 255);
 }
 
-.join-mail{
+.join-mail {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -341,12 +405,13 @@ body{
     align-items: center;
 }
 
-.join-mail span{
+.join-mail span {
     font-size: larger;
     margin-bottom: 20px;
     color: #fff;
 }
-.join-mail form{
+
+.join-mail form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -354,7 +419,7 @@ body{
     width: 100%;
 }
 
-#mail-join{
+#mail-join {
     margin-bottom: 20px;
     border-radius: 5px;
     border: none;
@@ -365,7 +430,7 @@ body{
     color: #000000;
 }
 
-.join-mail form button{
+.join-mail form button {
     padding: 10px;
     background-color: #ff6100;
     border: none;
@@ -373,47 +438,47 @@ body{
     color: rgb(255, 255, 255);
 }
 
-.help-services{
+.help-services {
     display: flex;
     justify-content: space-around;
-    margin:50px 100px;
+    margin: 50px 100px;
     color: #fff;
 }
 
-.help-services .help{
+.help-services .help {
     display: flex;
     flex-direction: column;
     color: #fff;
 }
 
-.help-services .help a{
+.help-services .help a {
     text-decoration: none;
     margin-bottom: 5px;
     color: #fff;
 }
 
-.help-services .help .help-title{
+.help-services .help .help-title {
     font-size: large;
     margin-bottom: 30px;
 }
 
-.help-services .services{
+.help-services .services {
     display: flex;
     flex-direction: column;
 }
 
-.help-services .services a{
+.help-services .services a {
     text-decoration: none;
     color: #fff;
     margin-bottom: 5px;
 }
 
-.help-services .services .services-title{
+.help-services .services .services-title {
     font-size: large;
     margin-bottom: 30px;
 }
 
-.featured{
+.featured {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -422,32 +487,33 @@ body{
     color: #fff;
 }
 
-.featured-image{
+.featured-image {
     width: 75px;
     height: 75px;
     border-radius: 50%;
 }
 
-.featured .brands p, .featured .artists p{
+.featured .brands p,
+.featured .artists p {
     font-size: larger;
-    font-weight:bolder ;
+    font-weight: bolder;
     text-align: center;
     margin-bottom: 50px;
-    text-decoration: underline 1px solid ;
+    text-decoration: underline 1px solid;
 }
 
-.featured .brands{
+.featured .brands {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.featured .brands .Images .login-search{
+.featured .brands .Images .login-search {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 
@@ -469,41 +535,41 @@ body{
     justify-content: space-evenly;
 } */
 
-.featured img:hover{
+.featured img:hover {
     transform: scale(1.5);
     z-index: 1;
     transition: .8s;
 }
 
-.footer-major{
-    width:100% ;
+.footer-major {
+    width: 100%;
     display: flex;
     justify-content: center;
 
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     width: 50%;
 }
 
-.footer span{
+.footer span {
     color: #fff;
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
     color: #fff;
 }
 
-.last-footer{
+.last-footer {
     display: flex;
     justify-content: center;
     color: #fff;
 }
 
-.last-footer a{
+.last-footer a {
     text-decoration: none;
     color: #ff6100;
 }

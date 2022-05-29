@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="shortcut icon" href="/">
     <title>ShipinArt</title>
 </head>
+
 <body>
     <!-- NAVBAR -->
     <nav class="navbar">
@@ -27,22 +29,35 @@
         <!-- LOGIN & SEARCH -->
         <div class="login-search">
             <form action="">
-            <input type="text" name="search-catagories" id="search-catagories" placeholder="Search">
-            <a href="/"><button type="submit" class="search"><img src="https://i.ibb.co/K00b8MF/magnifying-glass-solid.png" alt="" style="height: 15px; color: aliceblue; filter: invert(100%);"></button></a>
+                <input type="text" name="search-catagories" id="search-catagories" placeholder="Search">
+                <a href="/"><button type="submit" class="search"><img
+                            src="https://i.ibb.co/K00b8MF/magnifying-glass-solid.png" alt=""
+                            style="height: 15px; color: aliceblue; filter: invert(100%);"></button></a>
             </form>
-            <a href="/signin-artist.html"><button class="login"><img src="https://i.ibb.co/Vq8vRBM/user-solid.png" alt="->" style="height: 15px; color: aliceblue; filter: invert(100%);"> LOGIN</button></a>
+            <button class="login" id="login" onclick=chooseportal(event); ><img src="https://i.ibb.co/Vq8vRBM/user-solid.png" alt="->"
+                    style="height: 15px; color: aliceblue; filter: invert(100%);"> LOGIN</button>
         </div>
     </nav>
+    <!-- Login Block -->
+    <div class="login-block-wrapper" id="login-block-wrapper" onclick="exitlogin(event)">
+        <div class="login-block" id="login-block">
+            <span>LOGIN</span>
+            <div class="login-block-elements">
+                <a href="/signin-artist.html"><button>Artist Portal</button></a>
+                <a href="/signin-customer.html"><button>Customer Portal</button></a>
+            </div>
+        </div>
+    </div>
 
     <!-- SLIDESHOW -->
     <div class="background-image">
         <div class="slideshow">
             <a href=""><i class="fas fa-arrow-left"></i></a>
-                <a href="/"><span></span></a>
-                <a href="/"><i class="fas fa-arrow-right"></i></a>
+            <a href="/"><span></span></a>
+            <a href="/"><i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
-    
+
     <!-- CATAGORIES -->
     <!-- SEPERATOR -->
     <div class="seperator">
@@ -61,7 +76,8 @@
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -72,16 +88,18 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
-                
+
             </div>
 
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -92,32 +110,16 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
-                </div>
-            </div>
-
-
-            <div class="catagories-box">
-                <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                </div>
-                <div class="details">
-                    <p>PAINTING NAME</p>
-                    <div class="size-price">
-                        <span>2 x 2 </span>
-                        <span>Rs. 4000</span>
-                    </div>
-                    <p>ARTIST NAME</p>
-                </div>
-                <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -128,14 +130,36 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
+
+
+            <div class="catagories-box">
+                <div class="picture">
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+                </div>
+                <div class="details">
+                    <p>PAINTING NAME</p>
+                    <div class="size-price">
+                        <span>2 x 2 </span>
+                        <span>Rs. 4000</span>
+                    </div>
+                    <p>ARTIST NAME</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -146,7 +170,8 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
@@ -174,7 +199,8 @@
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
 
                 </div>
                 <div class="details">
@@ -186,16 +212,18 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
-                
+
             </div>
 
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -206,34 +234,17 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
-                </div>
-            </div>
-
-
-            <div class="catagories-box">
-                <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
-                </div>
-                <div class="details">
-                    <p>PAINTING NAME</p>
-                    <div class="size-price">
-                        <span>2 x 2 </span>
-                        <span>Rs. 4000</span>
-                    </div>
-                    <p>ARTIST NAME</p>
-                </div>
-                <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -244,14 +255,37 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
+
+
+            <div class="catagories-box">
+                <div class="picture">
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
+                </div>
+                <div class="details">
+                    <p>PAINTING NAME</p>
+                    <div class="size-price">
+                        <span>2 x 2 </span>
+                        <span>Rs. 4000</span>
+                    </div>
+                    <p>ARTIST NAME</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -262,7 +296,8 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
@@ -290,7 +325,8 @@
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
 
                 </div>
                 <div class="details">
@@ -302,16 +338,18 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
-                
+
             </div>
 
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -322,34 +360,17 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
-                </div>
-            </div>
-
-
-            <div class="catagories-box">
-                <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
-                </div>
-                <div class="details">
-                    <p>PAINTING NAME</p>
-                    <div class="size-price">
-                        <span>2 x 2 </span>
-                        <span>Rs. 4000</span>
-                    </div>
-                    <p>ARTIST NAME</p>
-                </div>
-                <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -360,14 +381,37 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
+
+
+            <div class="catagories-box">
+                <div class="picture">
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
+                </div>
+                <div class="details">
+                    <p>PAINTING NAME</p>
+                    <div class="size-price">
+                        <span>2 x 2 </span>
+                        <span>Rs. 4000</span>
+                    </div>
+                    <p>ARTIST NAME</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -378,7 +422,8 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
@@ -406,7 +451,8 @@
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
 
                 </div>
                 <div class="details">
@@ -418,16 +464,18 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
-                
+
             </div>
 
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -438,34 +486,17 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
-                </div>
-            </div>
-
-
-            <div class="catagories-box">
-                <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
-                </div>
-                <div class="details">
-                    <p>PAINTING NAME</p>
-                    <div class="size-price">
-                        <span>2 x 2 </span>
-                        <span>Rs. 4000</span>
-                    </div>
-                    <p>ARTIST NAME</p>
-                </div>
-                <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -476,14 +507,37 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
+
+
+            <div class="catagories-box">
+                <div class="picture">
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
+                </div>
+                <div class="details">
+                    <p>PAINTING NAME</p>
+                    <div class="size-price">
+                        <span>2 x 2 </span>
+                        <span>Rs. 4000</span>
+                    </div>
+                    <p>ARTIST NAME</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
             <div class="catagories-box">
                 <div class="picture">
-                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057" alt="">
-                    
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+
                 </div>
                 <div class="details">
                     <p>PAINTING NAME</p>
@@ -494,7 +548,8 @@
                     <p>ARTIST NAME</p>
                 </div>
                 <div class="cart">
-                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart" style="height: 15px; color: aliceblue; filter: invert(100%);">  ADD TO CART</button></a>
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
             </div>
 
@@ -553,16 +608,26 @@
             <p>FEATURED BRANDS</p>
             <div class="IMAGES">
                 <div class="one">
-                    <a href="/"><img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt=""></a>
-                    <a href="/"><img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt=""></a>
-                    <a href="/"><img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt=""></a>
-                    <a href="/"><img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt=""></a>
-                    <a href="/"><img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt=""></a>
-                    
+                    <a href="/"><img class="featured-image"
+                            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                            alt=""></a>
+                    <a href="/"><img class="featured-image"
+                            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                            alt=""></a>
+                    <a href="/"><img class="featured-image"
+                            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                            alt=""></a>
+                    <a href="/"><img class="featured-image"
+                            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                            alt=""></a>
+                    <a href="/"><img class="featured-image"
+                            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                            alt=""></a>
+
                 </div>
             </div>
         </div>
-<!-- 
+        <!-- 
         <div class="artists">
             <p>FEATURED ARTISTS</p>
             <div class="IMAGES">
@@ -588,13 +653,13 @@
 
     <!-- FOOTER -->
     <div class="footer-major">
-    <div class="footer">
-        <a href=""><span>Privacy Policy</span></a>
-        <span>|</span>
-        <a href=""><span>Terms and conditions</span></a>
-        <span>|</span>
-        <a href=""><span>Copyright</span></a>
-    </div>
+        <div class="footer">
+            <a href=""><span>Privacy Policy</span></a>
+            <span>|</span>
+            <a href=""><span>Terms and conditions</span></a>
+            <span>|</span>
+            <a href=""><span>Copyright</span></a>
+        </div>
     </div>
     <!-- SEPERATOR -->
     <div class="seperator">
@@ -610,8 +675,11 @@
     </div>
 
     <!-- END HTML -->
-    
 
-    
+    <!-- Scripts -->
+    <script src="script.js"></script>
+
+
 </body>
+
 </html>
