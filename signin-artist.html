@@ -4,15 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage-style.css">
     <link rel="stylesheet" href="signin-artist.css">
     <title>ShipinArt</title>
 </head>
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="/"><img src="https://i.ibb.co/3sQTYYJ/Shipin-Art-500-500-px.png" alt="hello"></a>
+        </div>
+        <!-- MENU -->
+        <div class="menu">
+            <li><a href="/" class="animate-catagories">HOME</a></li>
+            <li><a href="/" class="animate-catagories">ABOUT</a></li>
+            <li><a href="/" class="animate-catagories">CATAGORIES</a></li>
+            <li><a href="/" class="animate-catagories">SERVICES</a></li>
+            <li><a href="/" class="animate-catagories">CONTACT</a></li>
+        </div>
+        <!-- LOGIN & SEARCH -->
+        <div class="login-search">
+            <form action="">
+            <input type="text" name="search-catagories" id="search-catagories" placeholder="Search">
+            <a href="/"><button type="submit" class="search"><img src="https://i.ibb.co/K00b8MF/magnifying-glass-solid.png" alt="" style="height: 15px; color: aliceblue; filter: invert(100%);"></button></a>
+            </form>
+            <a href="/"><button class="login"><img src="https://i.ibb.co/Vq8vRBM/user-solid.png" alt="->" style="height: 15px; color: aliceblue; filter: invert(100%);"> LOGIN</button></a>
+        </div>
+    </nav>
+
+    <!-- SIGNIN SIGNUP FOR ARTISTS -->
+
     <div class="box">
         <div class="inside-box">
             <div class="toggle-buttons">
-                <button class="toggle-button signup">Signup</button>
-                <button class="toggle-button login" >Login</button>
+                <button class="toggle-button signupbutton">Signup</button>
+                <button class="toggle-button loginbutton" >Login</button>
                 <button class="toggleMove">Signup</button>
             </div>
             <div class="signup-form">
@@ -36,7 +63,7 @@
                         <label><span>Citizenship Front : </span><input type="file" name="citizenshipFront" id="citizenship-Front"><label>
                     </div>
                     <div class="input citizenship">
-                        <label><span>Citizenship Back :</span> <input type="file" name="citizenshipBack" id="citizenship-back"><label></label>
+                        <label><span>Citizenship Back :</span><input type="file" name="citizenshipBack" id="citizenship-back"><label></label>
                     </div>
                     <div class="input">
                         <input type="password" name="artist-pass" id="artist-pass" placeholder="Enter your new password" autocomplete="off" required>
@@ -48,6 +75,10 @@
                         <button class="submit-button" type="submit">Signup</button>
                     </div>
                 </form>
+
+
+                <!-- SIGNIN PAGE -->
+
 
                 <form action="/" class="form loginn">
                     <div class="input">

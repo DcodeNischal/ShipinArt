@@ -1,19 +1,19 @@
-const signup=document.querySelector(".signup");
-const login=document.querySelector(".login");
+const signupbutton=document.querySelector(".signupbutton");
+const loginbutton=document.querySelector(".loginbutton");
 const toggleMove=document.querySelector(".toggleMove");
 const signupp =document.querySelector(".signupp");
 const loginn=document.querySelector(".loginn");
 
 
 
-login.addEventListener("click",()=>{
+loginbutton.addEventListener("click",()=>{
     toggleMove.classList.add("toggleMoveRight");
     loginn.classList.add("loginform");
     signupp.classList.remove("signupform");
     toggleMove.innerHTML="Login";
 })
 
-signup.addEventListener("click",()=>{
+signupbutton.addEventListener("click",()=>{
     toggleMove.classList.remove("toggleMoveRight");
     loginn.classList.remove("loginform");
     signupp.classList.add("signupform");

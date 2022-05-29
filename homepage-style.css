@@ -68,8 +68,6 @@ body{
     display: flex;
     margin-right: 20px;
     align-items: center;
-    
-
 }
 
 .login-search a{
@@ -84,6 +82,7 @@ body{
     border-radius: 50%;
     padding:10px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 #search-catagories{
@@ -98,12 +97,12 @@ body{
     color: rgb(255, 255, 255);
     border: #ff6100;
     border-radius: 10px;
-    padding: 5px 10px;
-    padding-left: 20px;
+    padding: 5px;
     font-size: 10px;
     height: 30px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 
