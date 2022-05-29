@@ -105,6 +105,10 @@ body{
     cursor: pointer;
 }
 
+.login-search .login img{
+    margin-right: 3px;
+}
+
 
 
 
