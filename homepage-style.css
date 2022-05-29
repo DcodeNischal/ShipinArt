@@ -19,6 +19,29 @@ body {
     width: 100px;
     cursor: pointer;
 }
+.logo img:hover{
+    animation-name: rotatelogo;
+    animation-timing-function:linear;
+    animation-duration: 1s;
+}
+@keyframes rotatelogo {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+       
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
 
 .menu {
     display: flex;
@@ -202,7 +225,7 @@ body {
 .slideshow {
     width: 97%;
     height: 496px;
-    border: 5px solid rgba(255, 255, 255);
+    border: 5px solid #ff6100;
     border-radius: 80px;
     display: flex;
     justify-content: space-between;
@@ -216,7 +239,7 @@ body {
 
 @keyframes boxborder {
     from {
-        border-color: #fff;
+        border-color: #ff6100;
     }
 
     to {
@@ -330,7 +353,11 @@ body {
     background-color: #fff;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    border: 1px solid black;
+    border: 3px solid #ff6100;
+}
+.catagories-box:hover{
+    transform: scale(1.2);
+    transition: .8s;
 }
 
 .acrylic .temporary .details span {
@@ -345,6 +372,11 @@ body {
     display: flex;
     justify-content: center;
     background: rgb(94, 94, 94);
+}
+
+.acrylic .temporary .catagories-box .picture:hover{
+    transform:scale(1.1);
+    transition: .8s;
 }
 
 .acrylic .temporary .catagories-box .picture .img {
