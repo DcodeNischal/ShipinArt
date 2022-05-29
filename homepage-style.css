@@ -353,6 +353,8 @@ body {
     background-color: #fff;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    transform: scale(1);
+    transition: .8s;
     border: 3px solid #ff6100;
 }
 .catagories-box:hover{
@@ -372,6 +374,8 @@ body {
     display: flex;
     justify-content: center;
     background: rgb(94, 94, 94);
+    transform:scale(1);
+    transition: .8s;
 }
 
 .acrylic .temporary .catagories-box .picture:hover{
