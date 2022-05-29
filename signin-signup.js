@@ -19,3 +19,10 @@ signupbutton.addEventListener("click",()=>{
     signupp.classList.add("signupform");
     toggleMove.innerHTML="Signup";
 })
+
+function chooseportal(event){
+    document.getElementById("login-block-wrapper").style.display="flex";
+}
+function exitlogin(evt) {
+document.getElementById("login-block-wrapper").style.display ="none";
+}

@@ -9,8 +9,8 @@
     <title>ShipinArt</title>
 </head>
 <body>
-    <!-- NAVBAR -->
-    <nav class="navbar" style="padding: 10px;">
+     <!-- NAVBAR -->
+     <nav class="navbar">
         <!-- LOGO -->
         <div class="logo">
             <a href="/"><img src="https://i.ibb.co/3sQTYYJ/Shipin-Art-500-500-px.png" alt="hello"></a>
@@ -26,12 +26,25 @@
         <!-- LOGIN & SEARCH -->
         <div class="login-search">
             <form action="">
-            <input type="text" name="search-catagories" id="search-catagories" placeholder="Search">
-            <a href="/"><button type="submit" class="search"><img src="https://i.ibb.co/K00b8MF/magnifying-glass-solid.png" alt="" style="height: 15px; color: aliceblue; filter: invert(100%);"></button></a>
+                <input type="text" name="search-catagories" id="search-catagories" placeholder="Search">
+                <a href="/"><button type="submit" class="search"><img
+                            src="https://i.ibb.co/K00b8MF/magnifying-glass-solid.png" alt=""
+                            style="height: 15px; color: aliceblue; filter: invert(100%);"></button></a>
             </form>
-            <a href="/"><button class="login"><img src="https://i.ibb.co/Vq8vRBM/user-solid.png" alt="->" style="height: 15px; color: aliceblue; filter: invert(100%);"> LOGIN</button></a>
+            <button class="login" id="login" onclick=chooseportal(event); ><img src="https://i.ibb.co/Vq8vRBM/user-solid.png" alt="->"
+                    style="height: 15px; color: aliceblue; filter: invert(100%);"> LOGIN</button>
         </div>
     </nav>
+    <!-- Login Block -->
+    <div class="login-block-wrapper" id="login-block-wrapper" onclick="exitlogin(event)">
+        <div class="login-block" id="login-block">
+            <span>LOGIN</span>
+            <div class="login-block-elements">
+                <a href="/signin-artist.html"><button>Artist Portal</button></a>
+                <a href="/signin-customer.html"><button>Customer Portal</button></a>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Title and headers -->
@@ -68,9 +81,13 @@
                     <div class="input">
                         <input type="password" name="confirmartistpass" id="confirm-artist-pass" placeholder="Confirm password" autocomplete="off" required>
                     </div>
+                    <div class="terms-conditions">
+                        <p><input type="checkbox" name="terms-conditions" id="terms-conditions">I agree to the <a href="/">Terms & Conditions</a>.</p>
+                    </div>
                     <div class="submit-button-wrap">
                         <button class="submit-button" type="submit">Signup</button>
                     </div>
+                    
                 </form>
 
 
