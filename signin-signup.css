@@ -93,10 +93,11 @@ body{
 .input{
     width: 500px;
     margin: 0.8em 0;
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
     border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     font-weight: 500;
+    color: white;
 }
 
 .citizenship{
@@ -109,11 +110,13 @@ body{
 }
 
 .input input{
+    color: white;
     width: 100%;
     padding: 1em 1.5em;
     background-color: transparent;
     border: none;
-    border-radius: 50px;
+    border-bottom: 1px solid white;
+    outline: none;
 }
 
 .forgot-password{
