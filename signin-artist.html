@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signin-artist.css">
+    <title>ShipinArt</title>
+</head>
+<body>
+    <div class="box">
+        <div class="inside-box">
+            <div class="toggle-buttons">
+                <button class="toggle-button signup">Signup</button>
+                <button class="toggle-button login" >Login</button>
+                <button class="toggleMove">Signup</button>
+            </div>
+            <div class="signup-form">
+                <form action="/" class="form signupp signupform">
+                    <div class="input">
+                        <input type="text" name="FirstName" id="first-name" placeholder="First Name" autocomplete="off" required>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="LastName" id="last-name" placeholder="LastName" autocomplete="off" required>
+                    </div>
+                    <div class="input">
+                        <input type="email" name="artistemail" id="artist-email" placeholder="Email" required>
+                    </div>
+                    <div class="input">
+                        <input type="number" name="artistphone" id="artist-phone" placeholder="Phone Number" autocomplete="off" required>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="artistaddress" id="artist-address" placeholder="Full address" autocomplete="off" requited>
+                    </div>
+                    <div class="input citizenship">
+                        <label><span>Citizenship Front : </span><input type="file" name="citizenshipFront" id="citizenship-Front"><label>
+                    </div>
+                    <div class="input citizenship">
+                        <label><span>Citizenship Back :</span> <input type="file" name="citizenshipBack" id="citizenship-back"><label></label>
+                    </div>
+                    <div class="input">
+                        <input type="password" name="artist-pass" id="artist-pass" placeholder="Enter your new password" autocomplete="off" required>
+                    </div>
+                    <div class="input">
+                        <input type="password" name="confirmartistpass" id="confirm-artist-pass" placeholder="Confirm password" autocomplete="off" required>
+                    </div>
+                    <div class="submit-button-wrap">
+                        <button class="submit-button" type="submit">Signup</button>
+                    </div>
+                </form>
+
+                <form action="/" class="form loginn">
+                    <div class="input">
+                        <input type="email" name="artistemail" id="artist-email" placeholder="Email" autocomplete="off" required>
+                    </div>
+                    <div class="input">
+                        <input type="password" name="confirmartistpass" id="confirm-artist-pass" placeholder="Password" autocomplete="off" required>
+                    </div>
+                    <div class="submit-button-wrap">
+                        <button class="submit-button" type="submit">Signin</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="signin-artist.js"></script>
+</body>
+</html>
