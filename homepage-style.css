@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,600;1,300&display=swap');
 body {
     background-color: rgba(0, 0, 0);
     padding: 10px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 600;
 }
 
 .navbar {
@@ -46,7 +49,7 @@ body {
 .menu {
     display: flex;
     margin-left: 40px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .menu li {
@@ -187,7 +190,7 @@ body {
     /* background: url(https://www.itl.cat/pngfile/big/225-2252403_abstract-art-painting-png.jpg) center no-repeat; */
     width: 80%;
     height: 500px;
-    border-radius: 80px;
+    border-radius: 50px;
     margin-top: 100px;
     margin-left: 10%;
     animation: slidermovement infinite 50s;
@@ -225,8 +228,9 @@ body {
 .slideshow {
     width: 97%;
     height: 496px;
-    border: 5px solid #ff6100;
-    border-radius: 80px;
+    border: 4px solid #ff6100;
+    padding: 2px;
+    border-radius: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -239,7 +243,7 @@ body {
 
 @keyframes boxborder {
     from {
-        border-color: #ff6100;
+        border-color: #ffffff;
     }
 
     to {
@@ -355,10 +359,12 @@ body {
     border-bottom-right-radius: 50px;
     transform: scale(1);
     transition: .8s;
-    border: 3px solid #ff6100;
+    border: 1px solid #ff6100;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 300;
 }
 .catagories-box:hover{
-    transform: scale(1.2);
+    transform: scale(1);
     transition: .8s;
 }
 
@@ -379,7 +385,7 @@ body {
 }
 
 .acrylic .temporary .catagories-box .picture:hover{
-    transform:scale(1.1);
+    transform:scale(1);
     transition: .8s;
 }
 
@@ -491,6 +497,8 @@ body {
     text-decoration: none;
     margin-bottom: 5px;
     color: #fff;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 300;
 }
 
 .help-services .help .help-title {
@@ -507,6 +515,8 @@ body {
     text-decoration: none;
     color: #fff;
     margin-bottom: 5px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 300;
 }
 
 .help-services .services .services-title {
@@ -535,7 +545,6 @@ body {
     font-weight: bolder;
     text-align: center;
     margin-bottom: 50px;
-    text-decoration: underline 1px solid;
 }
 
 .featured .brands {
@@ -545,10 +554,11 @@ body {
     width: 100%;
 }
 
-.featured .brands .Images .login-search {
+.featured .brands .Images .one{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 700px;
 
 }
 
