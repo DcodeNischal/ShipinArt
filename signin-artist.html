@@ -61,31 +61,28 @@
             <div class="signup-form">
                 <form action="/" class="form signupp signupform">
                     <div class="input">
-                        <input type="text" name="FirstName" id="first-name" placeholder="First Name" autocomplete="off" required>
+                        <input type="text" name="FullName" id="full-name" placeholder="Full Name" autocomplete="off" required><span id="name-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="text" name="LastName" id="last-name" placeholder="LastName" autocomplete="off" required>
+                        <input type="email" name="artistemail" id="artist-email" placeholder="Email" required><span id="email-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="email" name="artistemail" id="artist-email" placeholder="Email" required>
+                        <input type="text" name="artistphone" id="artist-phone" placeholder="Phone Number" autocomplete="off" required><span id="phone-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="number" name="artistphone" id="artist-phone" placeholder="Phone Number" autocomplete="off" required>
+                        <input type="text" name="artistaddress" id="artist-address" placeholder="Address(Tole, Ward_no, District)" autocomplete="off" required><span id="address-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="text" name="artistaddress" id="artist-address" placeholder="Full address" autocomplete="off" requited>
+                        <input type="password" name="artist-pass" id="artist-pass" placeholder="New password" autocomplete="off" required><span id="password-error-area" style="color:red; font-size: medium;"></span>
+                    </div>
+                    <div class="input">
+                        <input type="password" name="confirmartistpass" id="confirm-artist-pass" placeholder="Confirm password" autocomplete="off" required><span id="confirm_password-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input citizenship">
-                        <label><span>Citizenship Front : <span>*</span></span><input type="file" name="citizenshipFront" id="citizenship-Front" required><label>
+                        <label><span>Citizenship Front : <span>*</span></span><input type="file" name="citizenshipFront" id="citizenship-Front" required><span id="citizenship_front-error-area" style="color:red; font-size: medium;"></span><label>
                     </div>
                     <div class="input citizenship">
-                        <label><span>Citizenship Back :<span>*</span></span><input type="file" name="citizenshipBack" id="citizenship-back" required><label></label>
-                    </div>
-                    <div class="input">
-                        <input type="password" name="artist-pass" id="artist-pass" placeholder="Enter your new password" autocomplete="off" required>
-                    </div>
-                    <div class="input">
-                        <input type="password" name="confirmartistpass" id="confirm-artist-pass" placeholder="Confirm password" autocomplete="off" required>
+                        <label><span>Citizenship Back :<span>*</span></span><input type="file" name="citizenshipBack" id="citizenship-back" required><span id="citizenship_back-error-area" style="color:red; font-size: medium;"></span><label></label>
                     </div>
                     <div class="terms-conditions">
                         <p><input type="checkbox" name="terms-conditions" id="terms-conditions">I agree to the <a href="/">Terms & Conditions</a>.</p>
