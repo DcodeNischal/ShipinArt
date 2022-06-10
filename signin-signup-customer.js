@@ -1,4 +1,4 @@
-const signupbutton=document.querySelector(".signupbutton");
+/*const signupbutton=document.querySelector(".signupbutton");
 const loginbutton=document.querySelector(".loginbutton");
 const toggleMove=document.querySelector(".toggleMove");
 const signupp =document.querySelector(".signupp");
@@ -26,17 +26,19 @@ function chooseportal(event){
 function exitlogin(evt) {
 document.getElementById("login-block-wrapper").style.display ="none";
 }
-// Form validation starts here.
-document.getElementById("full-name").onblur=validate_name;
-document.getElementById("artist-email").onblur=validate_email;
-document.getElementById("artist-phone").onblur=validate_phone;
-document.getElementById("artist-pass").onblur=validate_password;
-document.getElementById("confirm-artist-pass").onblur=validate_re_password;
+*/
+//Customer form validation starts here.
+
+document.getElementById("customer-full-name").onblur=validate_name;
+document.getElementById("customer-email").onblur=validate_email;
+document.getElementById("customer-phone").onblur=validate_phone;
+document.getElementById("customer-pass").onblur=validate_password;
+document.getElementById("confirm-customer-pass").onblur=validate_re_password;
 
 
 function validate_name()
 {
-    var name = document.getElementById("full-name").value;
+    var name = document.getElementById("customer-full-name").value;
 
     if(name!="")
     {
@@ -61,7 +63,7 @@ function validate_name()
 
 function validate_email()
 {
-    var email = document.getElementById("artist-email").value;
+    var email = document.getElementById("customer-email").value;
 
     if(email!="")
     {
@@ -82,7 +84,7 @@ function validate_email()
 
 function validate_phone()
 {
-    var phone = document.getElementById("artist-phone").value;
+    var phone = document.getElementById("customer-phone").value;
 
     if(phone!="")
     {
@@ -109,7 +111,7 @@ function validate_phone()
 
 function validate_password()
 {
-    var password = document.getElementById("artist-pass").value;
+    var password = document.getElementById("customer-pass").value;
 
     if(password!="")
     {
@@ -131,21 +133,24 @@ function validate_password()
 
 function validate_re_password()
 {
-    var re_password = document.getElementById("confirm-artist-pass").value;
-    var password = document. getElementById("artist-pass").value;
+    var re_password = document.getElementById("confirm-customer-pass").value;
+    var password = document. getElementById("customer-pass").value;
 
-    if(password!="")
+    if(re_password!="")
     {
-        if(re_password.localeCompare(password))
+        if(!(password.localeCompare(re_password)))
         {
+            
             console.log(password);
             console.log(re_password);
             console.log("Valid password confirmed")
             document.getElementById("confirm_password-error-area").innerHTML="";
         }
-        else    
-        document.getElementById("confirm_password-error-area").innerHTML="*Password didn't match"; 
-        
+        else {   
+            document.getElementById("confirm_password-error-area").innerHTML="*Password didn't match";
+            console.log(password);
+            console.log(re_password);
+        }
     }
     
    
@@ -154,4 +159,3 @@ function validate_re_password()
         document.getElementById("confirm_password-error-area").innerHTML="*Field cannot be left empty";
     }
 }
-

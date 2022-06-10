@@ -59,27 +59,24 @@
                 <button class="toggleMove">Signup</button>
             </div>
             <div class="signup-form">
-                <form action="/" class="form signupp signupform">
+                <form action="" class="form signupp signupform", method="post">
                     <div class="input">
-                        <input type="text" name="FirstName" id="first-name" placeholder="First Name" autocomplete="off" required>
+                        <input type="text" name="FullName" id="customer-full-name" placeholder="Full Name" autocomplete="off" required><span id="name-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="text" name="LastName" id="last-name" placeholder="LastName" autocomplete="off" required>
+                        <input type="email" name="customeremail" id="customer-email" placeholder="Email" required><span id="email-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="email" name="customeremail" id="customer-email" placeholder="Email" required>
+                        <input type="text" name="cusromerphone" id="customer-phone" placeholder="Phone Number" autocomplete="off" required><span id="phone-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="number" name="cusromerphone" id="customer-phone" placeholder="Phone Number" autocomplete="off" required>
+                        <input type="text" name="customeraddress" id="customer-address" placeholder="Full address" autocomplete="off" required><span id="address-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="text" name="customeraddress" id="customer-address" placeholder="Full address" autocomplete="off" requited>
+                        <input type="password" name="customer-pass" id="customer-pass" placeholder="New password" autocomplete="off" required><span id="password-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="password" name="artist-pass" id="artist-pass" placeholder="Enter your new password" autocomplete="off" required>
-                    </div>
-                    <div class="input">
-                        <input type="password" name="confirmartistpass" id="confirm-artist-pass" placeholder="Confirm password" autocomplete="off" required>
+                        <input type="password" name="confirm-customer-pass" id="confirm-customer-pass" placeholder="Confirm password" autocomplete="off" required><span id="confirm_password-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="terms-conditions">
                         <p><input type="checkbox" name="terms-conditions" id="terms-conditions">I agree to the <a href="/">Terms & Conditions</a>.</p>
@@ -94,7 +91,7 @@
                 <!-- SIGNIN PAGE -->
 
 
-                <form action="/" class="form loginn">
+                <form action="" class="form loginn" method="post">
                     <div class="input">
                         <input type="email" name="customeremail" id="customer-email" placeholder="Email" autocomplete="off" required>
                     </div>
@@ -219,7 +216,7 @@
     </div>
 
     <!-- END HTML -->
-
-    <script src="signin-signup.js"></script>
+    <script src="signin-signup-customer.js"></script>
+    <script src="signin-signup-artist.js"></script>
 </body>
 </html>
