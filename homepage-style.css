@@ -111,6 +111,13 @@ body {
     cursor: pointer;
 }
 
+#logout{
+    display: none;
+}
+
+#cart-nav{
+    display: none;
+}
 #search-catagories {
     width: 150px;
     border-radius: 10px;
