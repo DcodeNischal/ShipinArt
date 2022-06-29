@@ -14,42 +14,23 @@ body {
     position: fixed;
     width: 100%;
     z-index: 1;
-    padding: 5px;
+    padding: 10px;
     background-color: #000;
 }
 
-.logo img {
-    width: 100px;
-    cursor: pointer;
+.logo a{
+    color: #ff6100;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
 }
-.logo img:hover{
-    animation-name: rotatelogo;
-    animation-timing-function:linear;
-    animation-duration: 1s;
+.logo span{
+    color:#fff;
 }
-@keyframes rotatelogo {
-    0%{
-        transform: rotate(0deg);
-    }
-    25%{
-        transform: rotate(90deg);
-    }
-    50%{
-        transform: rotate(180deg);
-    }
-    75%{
-        transform: rotate(270deg);
-       
-    }
-    100%{
-        transform:rotate(360deg);
-    }
-}
-
 .menu {
     display: flex;
-    margin-left: 40px;
-    font-size: 15px;
+    margin-left: 2em;
+    font-size: 1rem;
 }
 
 .menu li {
@@ -66,7 +47,7 @@ body {
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
+    height: 0.2rem;
     bottom: 0;
     left: 0;
     background-color: #ff6100;
@@ -82,17 +63,17 @@ body {
 .menu li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    margin: 0px 30px;
+    margin: 0rem 2em;
 }
 
 .login-search form {
     display: flex;
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .login-search {
     display: flex;
-    margin-right: 20px;
+    margin-right: 1.2rem;
     align-items: center;
 }
 
@@ -104,10 +85,10 @@ body {
     background-color: #ff6100;
     color: #fff;
     border: none;
-    font-size: 10px;
+    font-size: 1rem;
     border-radius: 50%;
-    padding: 10px;
-    margin-left: 5px;
+    padding: 0.6rem;
+    margin-left: 0.3rem;
     cursor: pointer;
 }
 
@@ -119,31 +100,31 @@ body {
     display: none;
 }
 #search-catagories {
-    width: 150px;
-    border-radius: 10px;
-    font-size: 10px;
-    padding: 3px;
+    width: 10rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.5rem;
 }
 
 .login-search .login {
     background-color: #ff6100;
     color: rgb(255, 255, 255);
     border: #ff6100;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 10px;
-    height: 30px;
+    border-radius: 0.6rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.7rem;
+    height: 2rem;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
 .login-search .login img {
-    margin-right: 3px;
+    margin-right: 0.3rem;
 }
 
 #login-block-wrapper {
-    margin: -20px;
+    margin: -1.2rem;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -160,8 +141,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #000;
-    padding: 70px;
-    border-radius:50px ;
+    padding: 6.6rem;
+    border-radius:5.3rem;
 
     
 }
@@ -169,23 +150,23 @@ body {
 .login-block span {
     color: #fff;
     text-decoration: underline;
-    padding: 1em;
-    font-size: 1.3em;
+    padding: 1rem;
+    font-size: 1.3rem;
 
 }
 
 .login-block-elements {
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 5.3rem;
     align-items: center;
 }
 
 .login-block-elements button {
     background-color: #ff6100;
     border: none;
-    padding: 30px;
-    border-radius: 50px;
+    padding: 2rem;
+    border-radius: 5.2rem;
     color: #fff;
     font-weight: 600;
 }
@@ -193,125 +174,70 @@ body {
 
 
 
-.background-image {
-    /* background: url(https://www.itl.cat/pngfile/big/225-2252403_abstract-art-painting-png.jpg) center no-repeat; */
-    width: 80%;
-    height: 500px;
-    border-radius: 50px;
-    margin-top: 100px;
-    margin-left: 10%;
-    animation: slidermovement infinite 50s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-out;
-    animation-direction: alternate;
-    margin-bottom: 50px;
-}
-
-@keyframes slidermovement {
-    0% {
-        background: url(https://www.itl.cat/pngfile/big/225-2252403_abstract-art-painting-png.jpg) center no-repeat;
-    }
-
-    25% {
-        background: url(https://upload.wikimedia.org/wikipedia/commons/1/18/%22Joy_-_Collage_of_Life%22_%2C_Ren%C3%A9_Cheng%2C_oil_painting%2C_2017.jpg);
-    }
-
-    50% {
-        background: url(https://cdn.pixabay.com/photo/2018/11/12/18/49/art-3811501_1280.jpg) center;
-
-    }
-
-    75% {
-        background: url(https://live.staticflickr.com/3849/32808095950_caee94a1e6_b.jpg);
-
-    }
-
-    100% {
-        background: url(https://cdn.pixabay.com/photo/2017/05/24/19/26/abstract-2341349_1280.jpg) center;
-
-    }
-}
-
-.slideshow {
-    width: 97%;
-    height: 496px;
-    border: 4px solid #ff6100;
-    padding: 2px;
-    border-radius: 50px;
+.background-image{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    font-size: 40px;
-    /* color: #fff; */
-    padding: 0px 20px;
-    animation: boxborder infinite 5s;
-    animation-direction: alternate;
+    width: 80%;
+    height:40em;
+    margin-left: 10%;
 }
 
-@keyframes boxborder {
-    from {
-        border-color: #ffffff;
-    }
-
-    to {
-        border-color: #000;
-    }
+.top-image{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 80%;
 }
 
-.slideshow a:nth-child(2) span::before {
-    content: "ACRYLIC";
-    animation: slidername infinite 50s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-out;
-    animation-direction: alternate;
-}
-
-@keyframes slidername {
-    0% {
-        content: "ACRYLIC";
-
-    }
-
-    25% {
-        content: "OIL";
-    }
-
-    50% {
-        content: "MODERN";
-
-    }
-
-    75% {
-        content: "SKETCH";
-
-    }
-
-    100% {
-        content: "ABSTRACT";
-
-    }
-}
-
-
-
-.slideshow i {
-    font-size: 25px;
-}
-
-.slideshow a {
+.top-image a{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
     text-decoration: none;
     color: #fff;
-    text-shadow: #000 5px 5px;
-    font-weight: bolder;
-    font-size: larger;
+    transition: .4s ease-in-out;
+    padding: 1em;
 }
 
-.slideshow:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-    border: 3px solid black;
-    transition: .7s;
-    font-size: 50px;
-    color: #fff;
+.top-image a:hover{
+    color: #ff6100;
+    transition: .4s ease-in-out;
+}
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.acrylic-title{
+    background: url(https://www.itl.cat/pngfile/big/225-2252403_abstract-art-painting-png.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.oil-title{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/1/18/%22Joy_-_Collage_of_Life%22_%2C_Ren%C3%A9_Cheng%2C_oil_painting%2C_2017.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.modern-title{
+    background: url(https://cdn.pixabay.com/photo/2018/11/12/18/49/art-3811501_1280.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.sketch-title{
+    background: url(https://live.staticflickr.com/3849/32808095950_caee94a1e6_b.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.abstract-title{
+    background: url(https://cdn.pixabay.com/photo/2017/05/24/19/26/abstract-2341349_1280.jpg) center no-repeat;
+    background-size: cover;
 }
 
 .seperator {
@@ -330,27 +256,27 @@ body {
 }
 
 .acrylic {
-    margin-top: 100px;
+    margin-top: 5rem;
 }
 
 .acrylic .name {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 2.5rem;
 }
 
 .acrylic .name span {
-    font-size: 25px;
+    font-size: 1.5rem;
     color: #fff;
-    padding: 5px 100px;
+    padding: 0.5rem;
 }
 
 .temporary {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 80px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .acrylic .temporary i {
@@ -360,10 +286,10 @@ body {
 
 .catagories-box {
     width: 15%;
-    height: 500px;
+    height: 25rem;
     background-color: #fff;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
     transform: scale(1);
     transition: .8s;
     border: 1px solid #ff6100;
@@ -403,7 +329,7 @@ body {
 }
 
 .acrylic .temporary .catagories-box .details {
-    margin-top: 10px;
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -418,22 +344,22 @@ body {
 }
 
 .acrylic .temporary .catagories-box .details .size-price span:nth-child(2) {
-    margin-left: 5px;
+    margin-left: 0.3rem;
 }
 
 .acrylic .temporary .catagories-box .cart {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 1rem;
 }
 
 
 .acrylic .temporary .catagories-box .cart button {
     background-color: #ff6100;
-    padding: 15px;
+    padding: 1rem;
     width: fit-content;
     border: none;
-    border-radius: 15px;
+    border-radius: 1rem;
     font-weight: bolder;
     color: white;
 }
@@ -449,14 +375,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
     align-items: center;
 }
 
 .join-mail span {
     font-size: larger;
-    margin-bottom: 20px;
+    margin-bottom: 1.3rem;
     color: #fff;
 }
 
@@ -469,8 +395,8 @@ body {
 }
 
 #mail-join {
-    margin-bottom: 20px;
-    border-radius: 5px;
+    margin-bottom: 1.3rem;
+    border-radius: 0.3rem;
     border: none;
     font-size: large;
     text-align: center;
@@ -480,17 +406,17 @@ body {
 }
 
 .join-mail form button {
-    padding: 10px;
+    padding: 0.6rem;
     background-color: #ff6100;
     border: none;
-    border-radius: 10px;
+    border-radius:0.6rem;
     color: rgb(255, 255, 255);
 }
 
 .help-services {
     display: flex;
     justify-content: space-around;
-    margin: 50px 100px;
+    margin: 3.5rem 7rem;
     color: #fff;
 }
 
@@ -502,7 +428,7 @@ body {
 
 .help-services .help a {
     text-decoration: none;
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
     color: #fff;
     font-family: 'Rubik',sans-serif;
     font-weight: 300;
@@ -510,7 +436,7 @@ body {
 
 .help-services .help .help-title {
     font-size: large;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
 .help-services .services {
@@ -521,28 +447,28 @@ body {
 .help-services .services a {
     text-decoration: none;
     color: #fff;
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
     font-family: 'Rubik',sans-serif;
     font-weight: 300;
 }
 
 .help-services .services .services-title {
     font-size: large;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
 .featured {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
     color: #fff;
 }
 
 .featured-image {
-    width: 75px;
-    height: 75px;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
 }
 
@@ -551,7 +477,7 @@ body {
     font-size: larger;
     font-weight: bolder;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.5rem;
 }
 
 .featured .brands {
@@ -565,33 +491,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 700px;
+    width: 80%;
 
-}
-
-
-/* .featured .artists{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-}
-
-.featured .artists .one{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.featured .artists .two{
-    display: flex;
-    justify-content: space-evenly;
-} */
-
-.featured img:hover {
-    transform: scale(1.5);
-    z-index: 1;
-    transition: .8s;
 }
 
 .footer-major {
@@ -614,6 +515,7 @@ body {
 .footer a {
     text-decoration: none;
     color: #fff;
+    font-size: 1rem;
 }
 
 .last-footer {
