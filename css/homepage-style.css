@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,600;1,300&display=swap');
+
 body {
     background-color: rgba(0, 0, 0);
     padding: 10px;
-    font-family: 'Rubik',sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 600;
 }
 
@@ -18,15 +19,17 @@ body {
     background-color: #000;
 }
 
-.logo a{
+.logo a {
     color: #ff6100;
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
 }
-.logo span{
-    color:#fff;
+
+.logo span {
+    color: #fff;
 }
+
 .menu {
     display: flex;
     margin-left: 2em;
@@ -93,13 +96,14 @@ body {
     cursor: pointer;
 }
 
-#logout{
+#logout {
     display: none;
 }
 
-#cart-nav{
+#cart-nav {
     display: none;
 }
+
 #search-catagories {
     width: 10rem;
     border-radius: 0.5rem;
@@ -131,7 +135,7 @@ body {
     height: 100%;
     background-color: rgb(0, 0, 0, 0.8);
     z-index: 1;
-    display:none;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -143,9 +147,9 @@ body {
     align-items: center;
     background-color: #000;
     padding: 6.6rem;
-    border-radius:5.3rem;
+    border-radius: 5.3rem;
 
-    
+
 }
 
 .login-block span {
@@ -153,7 +157,6 @@ body {
     text-decoration: underline;
     padding: 1rem;
     font-size: 1.3rem;
-
 }
 
 .login-block-elements {
@@ -175,24 +178,24 @@ body {
 
 
 
-.background-image{
+.background-image {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
-    height:40em;
+    height: 40em;
     margin-left: 10%;
     margin-top: 2em;
 }
 
-.top-image{
+.top-image {
     border: 1px solid #fff;
     border-radius: 5px;
     width: 100%;
     height: 80%;
 }
 
-.top-image a{
+.top-image a {
     display: flex;
     flex-direction: column;
     font-size: 1.4rem;
@@ -202,12 +205,14 @@ body {
     padding: 1em;
 }
 
-.top-image a:hover{
+
+
+.top-image a:hover {
     color: #ff6100;
     transition: .4s ease-in-out;
 }
 
-.holder{
+.holder {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,27 +222,28 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.acrylic-title{
+
+.acrylic-title {
     background: url(https://www.itl.cat/pngfile/big/225-2252403_abstract-art-painting-png.jpg) center no-repeat;
     background-size: cover;
 }
 
-.oil-title{
+.oil-title {
     background: url(https://upload.wikimedia.org/wikipedia/commons/1/18/%22Joy_-_Collage_of_Life%22_%2C_Ren%C3%A9_Cheng%2C_oil_painting%2C_2017.jpg) center no-repeat;
     background-size: cover;
 }
 
-.modern-title{
+.modern-title {
     background: url(https://cdn.pixabay.com/photo/2018/11/12/18/49/art-3811501_1280.jpg) center no-repeat;
     background-size: cover;
 }
 
-.sketch-title{
+.sketch-title {
     background: url(https://live.staticflickr.com/3849/32808095950_caee94a1e6_b.jpg) center no-repeat;
     background-size: cover;
 }
 
-.abstract-title{
+.abstract-title {
     background: url(https://cdn.pixabay.com/photo/2017/05/24/19/26/abstract-2341349_1280.jpg) center no-repeat;
     background-size: cover;
 }
@@ -300,7 +306,8 @@ body {
 
 .temporary {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5rem;
     align-items: center;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
@@ -321,10 +328,11 @@ body {
     transform: scale(1);
     transition: .8s;
     border: 1px solid #ff6100;
-    font-family: 'Rubik',sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 300;
 }
-.catagories-box:hover{
+
+.catagories-box:hover {
     transform: scale(1);
     transition: .8s;
 }
@@ -341,12 +349,12 @@ body {
     display: flex;
     justify-content: center;
     background: rgb(94, 94, 94);
-    transform:scale(1);
+    transform: scale(1);
     transition: .8s;
 }
 
-.acrylic .temporary .catagories-box .picture:hover{
-    transform:scale(1);
+.acrylic .temporary .catagories-box .picture:hover {
+    transform: scale(1);
     transition: .8s;
 }
 
@@ -437,7 +445,7 @@ body {
     padding: 0.6rem;
     background-color: #ff6100;
     border: none;
-    border-radius:0.6rem;
+    border-radius: 0.6rem;
     color: rgb(255, 255, 255);
 }
 
@@ -458,8 +466,8 @@ body {
     text-decoration: none;
     margin-bottom: 0.3rem;
     color: #fff;
-    font-family: 'Rubik',sans-serif;
-    font-weight: 300;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
     transition: .4s;
 }
 
@@ -477,8 +485,8 @@ body {
     text-decoration: none;
     color: #fff;
     margin-bottom: 0.3rem;
-    font-family: 'Rubik',sans-serif;
-    font-weight: 300;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 100;
     transition: .4s;
 }
 
@@ -487,7 +495,8 @@ body {
     margin-bottom: 2rem;
 }
 
-.help-services .help a:hover,.help-services .services a:hover {
+.help-services .help a:hover,
+.help-services .services a:hover {
     color: #ff6100;
     transition: .4s;
 }
@@ -522,7 +531,7 @@ body {
     width: 100%;
 }
 
-.featured .brands .Images .one{
+.featured .brands .Images .one {
     display: flex;
     align-items: center;
     justify-content: space-around;
