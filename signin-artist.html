@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="homepage-style.css">
-    <link rel="stylesheet" href="signin-signup.css">
+    <link rel="stylesheet" href="css/homepage-style.css">
+    <link rel="stylesheet" href="css/signin-signup.css">
     <title>ShipinArt</title>
 </head>
+
 <body>
-     <!-- NAVBAR -->
-     <nav class="navbar">
+    <!-- NAVBAR -->
+    <nav class="navbar">
         <!-- LOGO -->
         <div class="logo">
-            <a href="/"><img src="https://i.ibb.co/3sQTYYJ/Shipin-Art-500-500-px.png" alt="hello"></a>
+
+            <a href="/">Shipin<span>Art</span></a>
+
         </div>
         <!-- MENU -->
         <div class="menu">
@@ -31,8 +35,14 @@
                             src="https://i.ibb.co/K00b8MF/magnifying-glass-solid.png" alt=""
                             style="height: 15px; color: aliceblue; filter: invert(100%);"></button></a>
             </form>
-            <button class="login" id="login" onclick=chooseportal(event); ><img src="https://i.ibb.co/Vq8vRBM/user-solid.png" alt="->"
-                    style="height: 15px; color: aliceblue; filter: invert(100%);"> LOGIN</button>
+            <button class="cart-nav" id="cart-nav"><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                    style=" height:15px; background-color:none; filter: invert(100%);"></button>
+            <button class="login" id="login" onclick="chooseportal(event)" ;> <img
+                    src="https://i.ibb.co/Vq8vRBM/user-solid.png" alt=""
+                    style="height: 15px; color: aliceblue; filter: invert(100%);"> LOGIN </button>
+
+            <button class="logout login" id="logout"><img src="https://i.ibb.co/Vq8vRBM/user-solid.png" alt=""
+                    style="height: 15px; color: aliceblue; filter: invert(100%);">LOGOUT</button>
         </div>
     </nav>
     <!-- Login Block -->
@@ -55,37 +65,53 @@
         <div class="inside-box">
             <div class="toggle-buttons">
                 <button class="toggle-button signupbutton">Signup</button>
-                <button class="toggle-button loginbutton" >Login</button>
+                <button class="toggle-button loginbutton">Login</button>
                 <button class="toggleMove">Signup</button>
             </div>
             <div class="signup-form">
-                <form action="" class="form signupp signupform", method="post">
+                <form action="" class="form signupp signupform" , method="post">
                     <div class="input">
-                        <input type="text" name="FullName" id="artist-full-name" placeholder="Full Name" autocomplete="off" required><span id="name-error-area" style="color:red; font-size: medium;"></span>
+                        <input type="text" name="FullName" id="artist-full-name" placeholder="Full Name"
+                            autocomplete="off" required><span id="name-error-area"
+                            style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="email" name="artistemail" id="artist-email" placeholder="Email" required><span id="email-error-area" style="color:red; font-size: medium;"></span>
+                        <input type="email" name="artistemail" id="artist-email" placeholder="Email" required><span
+                            id="email-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="text" name="artistphone" id="artist-phone" placeholder="Phone Number" autocomplete="off" required><span id="phone-error-area" style="color:red; font-size: medium;"></span>
+                        <input type="text" name="artistphone" id="artist-phone" placeholder="Phone Number"
+                            autocomplete="off" required><span id="phone-error-area"
+                            style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="text" name="artistaddress" id="artist-address" placeholder="Address(Tole, Ward_no, District)" autocomplete="off" required><span id="address-error-area" style="color:red; font-size: medium;"></span>
+                        <input type="text" name="artistaddress" id="artist-address"
+                            placeholder="Address(Tole, Ward_no, District)" autocomplete="off" required><span
+                            id="address-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="password" name="artist-pass" id="artist-pass" placeholder="New password" autocomplete="off" required><span id="password-error-area" style="color:red; font-size: medium;"></span>
+                        <input type="password" name="artist-pass" id="artist-pass" placeholder="New password"
+                            autocomplete="off" required><span id="password-error-area"
+                            style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="password" name="confirmartistpass" id="confirm-artist-pass" placeholder="Confirm password" autocomplete="off" required><span id="confirm_password-error-area" style="color:red; font-size: medium;"></span>
+                        <input type="password" name="confirmartistpass" id="confirm-artist-pass"
+                            placeholder="Confirm password" autocomplete="off" required><span
+                            id="confirm_password-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input citizenship">
-                        <label><span>Citizenship Front : <span>*</span></span><input type="file" name="citizenshipFront" id="citizenship-Front" required><span id="citizenship_front-error-area" style="color:red; font-size: medium;"></span><label>
+                        <label><span>Citizenship Front : <span>*</span></span><input type="file" name="citizenshipFront"
+                                id="citizenship-Front" required><span id="citizenship_front-error-area"
+                                style="color:red; font-size: medium;"></span><label>
                     </div>
                     <div class="input citizenship">
-                        <label><span>Citizenship Back :<span>*</span></span><input type="file" name="citizenshipBack" id="citizenship-back" required><span id="citizenship_back-error-area" style="color:red; font-size: medium;"></span><label></label>
+                        <label><span>Citizenship Back :<span>*</span></span><input type="file" name="citizenshipBack"
+                                id="citizenship-back" required><span id="citizenship_back-error-area"
+                                style="color:red; font-size: medium;"></span><label></label>
                     </div>
                     <div class="terms-conditions">
-                        <p><input type="checkbox" name="terms-conditions" id="terms-conditions">I agree to the <a href="/">Terms & Conditions</a>.</p>
+                        <p><input type="checkbox" name="terms-conditions" id="terms-conditions">I agree to the <a
+                                href="/">Terms & Conditions</a>.</p>
                     </div>
                     <div class="submit-button-wrap">
                         <button class="submit-button" type="submit">Signup</button>
@@ -96,12 +122,14 @@
                 <!-- SIGNIN PAGE -->
 
 
-                <form action="" class="form loginn", method="post">
+                <form action="" class="form loginn" , method="post">
                     <div class="input">
-                        <input type="email" name="artistemail" id="artist-email" placeholder="Email" autocomplete="off" required>
+                        <input type="email" name="artistemail" id="login-artist-email" placeholder="Email" autocomplete="off"
+                            required>
                     </div>
                     <div class="input">
-                        <input type="password" name="confirmartistpass" id="confirm-artist-pass" placeholder="Password" autocomplete="off" required>
+                        <input type="password" name="confirmartistpass" id="login-artist-pass" placeholder="Password"
+                            autocomplete="off" required>
                     </div>
                     <div class="forgot-password">
                         <a href="/">Forgot Password ?</a>
@@ -164,30 +192,25 @@
             <p>FEATURED BRANDS</p>
             <div class="IMAGES">
                 <div class="one">
-                    <a href="/"><img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt=""></a>
-                    <a href="/"><img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt=""></a>
-                    <a href="/"><img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt=""></a>
-                    <a href="/"><img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt=""></a>
-                    <a href="/"><img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt=""></a>
-                    
+                    <a href="/"><img class="featured-image"
+                            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                            alt=""></a>
+                    <a href="/"><img class="featured-image"
+                            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                            alt=""></a>
+                    <a href="/"><img class="featured-image"
+                            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                            alt=""></a>
+                    <a href="/"><img class="featured-image"
+                            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                            alt=""></a>
+                    <a href="/"><img class="featured-image"
+                            src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                            alt=""></a>
+
                 </div>
             </div>
         </div>
-<!-- 
-        <div class="artists">
-            <p>FEATURED ARTISTS</p>
-            <div class="IMAGES">
-                <div class="one">
-                    <img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
-                    <img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
-                    <img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
-                </div>
-                <div class="two">
-                    <img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
-                    <img class="featured-image" src="https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3BpZGVybWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
-                </div>
-            </div>
-        </div> -->
     </div>
 
     <!-- SEPERATOR -->
@@ -199,13 +222,13 @@
 
     <!-- FOOTER -->
     <div class="footer-major">
-    <div class="footer">
-        <a href=""><span>Privacy Policy</span></a>
-        <span>|</span>
-        <a href=""><span>Terms and conditions</span></a>
-        <span>|</span>
-        <a href=""><span>Copyright</span></a>
-    </div>
+        <div class="footer">
+            <a href=""><span>Privacy Policy</span></a>
+            <span>|</span>
+            <a href=""><span>Terms and conditions</span></a>
+            <span>|</span>
+            <a href=""><span>Copyright</span></a>
+        </div>
     </div>
     <!-- SEPERATOR -->
     <div class="seperator">
@@ -224,4 +247,5 @@
 
     <script src="signin-signup-artist.js"></script>
 </body>
+
 </html>
