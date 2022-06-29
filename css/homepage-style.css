@@ -7,14 +7,14 @@ body {
 }
 
 .navbar {
-    margin: -20px;
+    margin: -1.3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     width: 100%;
     z-index: 1;
-    padding: 10px;
+    padding: 1rem 0.9rem;
     background-color: #000;
 }
 
@@ -40,6 +40,7 @@ body {
 .animate-catagories {
     display: inline-block;
     position: relative;
+    padding: 0.5rem;
 }
 
 .animate-catagories:after {
@@ -181,6 +182,7 @@ body {
     width: 80%;
     height:40em;
     margin-left: 10%;
+    margin-top: 2em;
 }
 
 .top-image{
@@ -271,12 +273,38 @@ body {
     padding: 0.5rem;
 }
 
+.animate-title {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.animate-title:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.2rem;
+    bottom: 0;
+    left: 0;
+    background-color: #ff6100;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.animate-title:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
 .temporary {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
+    width: 100%;
 }
 
 .acrylic .temporary i {
@@ -285,8 +313,8 @@ body {
 }
 
 .catagories-box {
-    width: 15%;
-    height: 25rem;
+    width: 12%;
+    height: 26rem;
     background-color: #fff;
     border-bottom-left-radius: 3.5rem;
     border-bottom-right-radius: 3.5rem;
@@ -432,6 +460,7 @@ body {
     color: #fff;
     font-family: 'Rubik',sans-serif;
     font-weight: 300;
+    transition: .4s;
 }
 
 .help-services .help .help-title {
@@ -450,11 +479,17 @@ body {
     margin-bottom: 0.3rem;
     font-family: 'Rubik',sans-serif;
     font-weight: 300;
+    transition: .4s;
 }
 
 .help-services .services .services-title {
     font-size: large;
     margin-bottom: 2rem;
+}
+
+.help-services .help a:hover,.help-services .services a:hover {
+    color: #ff6100;
+    transition: .4s;
 }
 
 .featured {
