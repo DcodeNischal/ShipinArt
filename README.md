@@ -2,7 +2,6 @@
 
 Designed By **Nischal Dhakal**, **Ujjwal Dhakal** and **Madhav Khanal** as a college project for Web Technology.
 
-
 #### Languages used
 
 *HTML*
@@ -13,14 +12,12 @@ Designed By **Nischal Dhakal**, **Ujjwal Dhakal** and **Madhav Khanal** as a col
 
 *PHP*
 
-
 #### Tools used
 
 *MySql*
 
-
 #### Duration of Project
 
-Started Date : 1st April ( Started to plan and design )
+Started Date : April 1, 2022 ( Started to plan and design )
 
-Estimated Deadline : July 15
+Estimated Deadline : July 15, 2022
