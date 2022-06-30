@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/homepage-style.css">
-    <link rel="stylesheet" href="css/signin-signup.css">
-    <title>ShipinArt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/homepage-style.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="shortcut icon" href="/">
+    <title>About</title>
 </head>
 
 <body>
@@ -22,7 +24,7 @@
         <!-- MENU -->
         <div class="menu">
             <li><a href="/" class="animate-catagories">HOME</a></li>
-            <li><a href="/" class="animate-catagories">ABOUT</a></li>
+            <li><a href="/html/about.html" class="animate-catagories">ABOUT</a></li>
             <li><a href="/" class="animate-catagories">CATAGORIES</a></li>
             <li><a href="/" class="animate-catagories">SERVICES</a></li>
             <li><a href="/team.html" class="animate-catagories">CONTACT</a></li>
@@ -50,88 +52,23 @@
         <div class="login-block" id="login-block">
             <span>LOGIN</span>
             <div class="login-block-elements">
-                <a href="/signin-artist.html"><button>Artist Portal</button></a>
-                <a href="/signin-customer.html"><button>Customer Portal</button></a>
+                <a href="../html/signin-artist.html"><button>Artist Portal</button></a>
+                <a href="../html/signin-customer.html"><button>Customer Portal</button></a>
             </div>
         </div>
     </div>
 
-
-    <!-- Title and headers -->
-    <h1 class="title">For Customers</h1>
-    <!-- SIGNIN SIGNUP FOR ARTISTS -->
-
-    <div class="box">
-        <div class="inside-box">
-            <div class="toggle-buttons">
-                <button class="toggle-button signupbutton">Signup</button>
-                <button class="toggle-button loginbutton">Login</button>
-                <button class="toggleMove">Signup</button>
-            </div>
-            <div class="signup-form">
-                <form action="" class="form signupp signupform" , method="post">
-                    <div class="input">
-                        <input type="text" name="FullName" id="customer-full-name" placeholder="Full Name"
-                            autocomplete="off" required><span id="name-error-area"
-                            style="color:red; font-size: medium;"></span>
-                    </div>
-                    <div class="input">
-                        <input type="email" name="customeremail" id="customer-email" placeholder="Email" required><span
-                            id="email-error-area" style="color:red; font-size: medium;"></span>
-                    </div>
-                    <div class="input">
-                        <input type="text" name="cusromerphone" id="customer-phone" placeholder="Phone Number"
-                            autocomplete="off" required><span id="phone-error-area"
-                            style="color:red; font-size: medium;"></span>
-                    </div>
-                    <div class="input">
-                        <input type="text" name="customeraddress" id="customer-address" placeholder="Full address"
-                            autocomplete="off" required><span id="address-error-area"
-                            style="color:red; font-size: medium;"></span>
-                    </div>
-                    <div class="input">
-                        <input type="password" name="customer-pass" id="customer-pass" placeholder="New password"
-                            autocomplete="off" required><span id="password-error-area"
-                            style="color:red; font-size: medium;"></span>
-                    </div>
-                    <div class="input">
-                        <input type="password" name="confirm-customer-pass" id="confirm-customer-pass"
-                            placeholder="Confirm password" autocomplete="off" required><span
-                            id="confirm_password-error-area" style="color:red; font-size: medium;"></span>
-                    </div>
-                    <div class="terms-conditions">
-                        <p><input type="checkbox" name="terms-conditions" id="terms-conditions">I agree to the <a
-                                href="/">Terms & Conditions</a>.</p>
-                    </div>
-                    <div class="submit-button-wrap">
-                        <button class="submit-button" type="submit">Signup</button>
-                    </div>
-
-                </form>
-
-
-                <!-- SIGNIN PAGE -->
-
-
-                <form action="" class="form loginn" method="post">
-                    <div class="input">
-                        <input type="email" name="customeremail" id="login-customer-email" placeholder="Email"
-                            autocomplete="off" required>
-                    </div>
-                    <div class="input">
-                        <input type="password" name="customerpass" id="login-customer-pass" placeholder="Password"
-                            autocomplete="off" required>
-                    </div>
-                    <div class="forgot-password">
-                        <a href="/">Forgot Password ?</a>
-                    </div>
-                    <div class="submit-button-wrap">
-                        <button class="submit-button" type="submit">Login</button>
-                    </div>
-                </form>
-            </div>
+    <!-- About START -->
+    <div class="about">
+        <div class="about-title">
+            <h1>About Us</h1>
+        </div>
+        <div class="description">
+            <p><span>Shipin</span>Art is a college project done by <b>Nischal Dhakal</b>, <b>Ujjwal Dhakal</b> and <b>Madhav Khanal</b>. This project is an e-commerce website designed especially for Paintings and Arts.</p>
         </div>
     </div>
+
+    <!-- About END -->
 
     <!-- SEPERATOR -->
     <div class="seperator">
@@ -235,8 +172,8 @@
     </div>
 
     <!-- END HTML -->
-    <script src="js/signin-signup-customer.js"></script>
-    <script src="js/signin-signup-artist.js"></script>
+
+    <script src="../js/signin-signup-artist.js"></script>
 </body>
 
 </html>
