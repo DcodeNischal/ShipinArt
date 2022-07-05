@@ -3,3 +3,23 @@ WILL DELETE THIS FILE WHILE CHANGING THE REPO FROM PRIVATE TO PUBLIC
 
 
 june 30,2022 - Team.html maa aafno social media links ani phone number hala hai
+
+july 5, 2022- Below is the code to fetch items while searching. USE IT 
+                if(isset($_POST["action"]))
+                {
+                    if($_POST["action"] == 'fetch')
+                    {
+                        $order_column = array('category_name', 'category_status');
+                
+                        $output = array();
+                
+                        $main_query = "
+                        SELECT * FROM product_category_table ";
+                
+                        $search_query = '';
+                
+                        if(isset($_POST["search"]["value"]))
+                        {
+                            $search_query .= 'WHERE category_name LIKE "%'.$_POST["search"]["value"].'%" ';
+                            $search_query .= 'OR category_status LIKE "%'.$_POST["search"]["value"].'%" ';
+                        }
