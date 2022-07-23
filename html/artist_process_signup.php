@@ -102,7 +102,7 @@
                 if($result)
                 {
                    //redirect to login page
-                   header('Location: signin-artist.php.php?error=You are now registered and can log in');
+                   header('Location: signin-artist.php?error=You are now registered and can log in');
                 }
                 else
                 {
