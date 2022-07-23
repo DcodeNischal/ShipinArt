@@ -29,7 +29,7 @@
         </div>
         <!-- LOGIN & SEARCH -->
         <div class="login-search">
-            <form action="">
+            <form action="" method="POST">
                 <input type="text" name="search-catagories" id="search-catagories" placeholder="Search">
                 <a href="/"><button type="submit" class="search"><img
                             src="https://i.ibb.co/K00b8MF/magnifying-glass-solid.png" alt=""
@@ -69,7 +69,7 @@
                 <button class="toggleMove">Signup</button>
             </div>
             <div class="signup-form">
-                <form action="" class="form signupp signupform" , method="post">
+                <form action="artist_signup.php" class="form signupp signupform" , method="post">
                     <div class="input">
                         <input type="text" name="FullName" id="artist-full-name" placeholder="Full Name"
                             autocomplete="off" required><span id="name-error-area"
@@ -90,7 +90,7 @@
                             id="address-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="password" name="artist-pass" id="artist-pass" placeholder="New password"
+                        <input type="password" name="artistpass" id="artist-pass" placeholder="New password"
                             autocomplete="off" required><span id="password-error-area"
                             style="color:red; font-size: medium;"></span>
                     </div>
@@ -122,7 +122,7 @@
                 <!-- SIGNIN PAGE -->
 
 
-                <form action="" class="form loginn" , method="post">
+                <form action="" class="form loginn">
                     <div class="input">
                         <input type="email" name="artistemail" id="login-artist-email" placeholder="Email"
                             autocomplete="off" required>

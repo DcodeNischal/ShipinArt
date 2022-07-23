@@ -69,7 +69,7 @@
                 <button class="toggleMove">Signup</button>
             </div>
             <div class="signup-form">
-                <form action="" class="form signupp signupform" , method="post">
+                <form action="customer_signup.php" class="form signupp signupform" method="post">
                     <div class="input">
                         <input type="text" name="FullName" id="customer-full-name" placeholder="Full Name"
                             autocomplete="off" required><span id="name-error-area"
@@ -90,7 +90,7 @@
                             style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="password" name="customer-pass" id="customer-pass" placeholder="New password"
+                        <input type="password" name="customerpass" id="customer-pass" placeholder="New password"
                             autocomplete="off" required><span id="password-error-area"
                             style="color:red; font-size: medium;"></span>
                     </div>
@@ -113,7 +113,7 @@
                 <!-- SIGNIN PAGE -->
 
 
-                <form action="" class="form loginn" method="post">
+                <form action="" class="form loginn">
                     <div class="input">
                         <input type="email" name="customeremail" id="login-customer-email" placeholder="Email"
                             autocomplete="off" required>
