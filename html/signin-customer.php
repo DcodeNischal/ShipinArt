@@ -22,10 +22,10 @@
         <!-- MENU -->
         <div class="menu">
             <li><a href="/" class="animate-catagories">HOME</a></li>
-            <li><a href="/html/about.html" class="animate-catagories">ABOUT</a></li>
-            <li><a href="/html/catagories.html" class="animate-catagories">CATAGORIES</a></li>
+            <li><a href="/html/about.php" class="animate-catagories">ABOUT</a></li>
+            <li><a href="/html/catagories.php" class="animate-catagories">CATAGORIES</a></li>
             <li><a href="/" class="animate-catagories">SERVICES</a></li>
-            <li><a href="/html/team.html" class="animate-catagories">CONTACT</a></li>
+            <li><a href="/html/team.php" class="animate-catagories">CONTACT</a></li>
         </div>
         <!-- LOGIN & SEARCH -->
         <div class="login-search">
@@ -50,8 +50,8 @@
         <div class="login-block" id="login-block">
             <span>LOGIN</span>
             <div class="login-block-elements">
-                <a href="../html/signin-artist.html"><button>Artist Portal</button></a>
-                <a href="../html/signin-customer.html"><button>Customer Portal</button></a>
+                <a href="../html/signin-artist.php"><button>Artist Portal</button></a>
+                <a href="../html/signin-customer.php"><button>Customer Portal</button></a>
             </div>
         </div>
     </div>
