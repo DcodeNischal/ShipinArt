@@ -12,9 +12,9 @@
 
 
         //check for empty fields
-        if(empty($name) || empty($email) || empty($upassword) || empty($dob))
+        if(empty($name) || empty($email) || empty($upassword) || empty($phone) || empty($address))
         {
-            header("Location: signin-artist.php?error=All fields required".'&name='.$name.'&email='.$email.'&dob='.$dob);
+            header("Location: signin-artist.php?error=All fields required".'&name='.$name.'&email='.$email.'&phone'.$phone.'&address'.$address);
         }
         else
         {
@@ -25,7 +25,7 @@
             $result = mysqli_query($connection, $query);
             if(mysqli_num_rows($result) > 0)
             {
-                header('Location: sigin-artist.php?error=Email already in use' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
+                header('Location: sigin-artist.php?error=Email already in use' . '&name=' . $name . '&email=' . $email .'&phone'.$phone.'&address'.$address);
             }
             else
             {
@@ -51,7 +51,7 @@
                         }
                         else
                         {
-                            header('Location: signin-artist.php?error=Image file type not supported' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
+                            header('Location: signin-artist.php?error=Image file type not supported' . '&name=' . $name . '&email=' . $email .'&phone'.$phone.'&address'.$address);
                             return;
                         }
                   }
@@ -81,7 +81,7 @@
                         }
                         else
                         {
-                            header('Location: signin-artist.php?error=Image file type not supported' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
+                            header('Location: signin-artist.php?error=Image file type not supported' . '&name=' . $name . '&email=' . $email .'&phone'.$phone.'&address'.$address);
                             return;
                         }
                   }
@@ -106,14 +106,14 @@
                 }
                 else
                 {
-                    header('Location: signin-artist.php?error=Something went wrong' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
+                    header('Location: signin-artist.php?error=Something went wrong' . '&name=' . $name . '&email=' . $email .'&phone'.$phone.'&address'.$address);
                 }
             }
         }
     }
     else
     {
-        header("Location: signin-artist.php.php");
+        header("Location: signin-artist.php?error=Something went wrong");
     }
 
 ?>

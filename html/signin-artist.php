@@ -69,7 +69,7 @@
                 <button class="toggleMove">Signup</button>
             </div>
             <div class="signup-form">
-                <form action="artist_signup.php" class="form signupp signupform" , method="post">
+                <form action="artist_process_signup.php" class="form signupp signupform" , method="post">
                     <div class="input">
                         <input type="text" name="FullName" id="artist-full-name" placeholder="Full Name"
                             autocomplete="off" required><span id="name-error-area"
@@ -110,7 +110,7 @@
                             style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="terms-conditions">
-                        <p><input type="checkbox" name="terms-conditions" id="terms-conditions">I agree to the <a
+                        <p><input type="checkbox" name="terms-conditions" id="terms-conditions" checked>I agree to the <a
                                 href="/">Terms & Conditions</a>.</p>
                     </div>
                     <div class="submit-button-wrap">
