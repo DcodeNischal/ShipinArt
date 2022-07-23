@@ -98,298 +98,314 @@
 
             <div class="temporary">
 
-                <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
+            <div class="catagories-box">
+                <div class="picture">
+                    <img src="https://mymodernmet.com/wp/wp-content/uploads/2022/04/will-yu-pandemic-oil-painting-2.jpg"
+                        alt="">
+
+                </div>
+                <div class="details">
+                    <p>WILL YOU PANDEMIC</p>
+                    <div class="size-price">
+                        <span>2 x 3 </span>
+                        <span>Rs. 12,000</span>
                     </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
+                    <p>SUMAN KUMAR NEPAL</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
+
+            <div class="catagories-box">
+                <div class="picture">
+                    <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
+                        alt="">
+                </div>
+                <div class="details">
+                    <p>THE BEAUTY</p>
+                    <div class="size-price">
+                        <span>3 x 4 </span>
+                        <span>Rs. 68,720</span>
                     </div>
+                    <p>HARMINDER SINGH</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
 
-                <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
-                </div>
+            </div>
 
                 <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+                <div class="picture">
+                    <img src="https://beautifuldawndesigns.net/wp-content/uploads/2021/08/acrylic-paintings-beautiful-4.jpg"
+                        alt="">
+
                 </div>
+                <div class="details">
+                    <p>PEACE</p>
+                    <div class="size-price">
+                        <span>2 x 2 </span>
+                        <span>Rs. 8,012</span>
+                    </div>
+                    <p>SHANTI MAHATO</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
 
                 <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+                <div class="picture">
+                    <img src="https://d3rf6j5nx5r04a.cloudfront.net/W-NKG18HXbxadBnjoVLM_jlB5CE=/760x1078/product/e/d/e272bab6d1974f8a8d18eb449ec37cd3_opt.jpg"
+                        alt="">
+
                 </div>
+                <div class="details">
+                    <p>DANCING GIRL</p>
+                    <div class="size-price">
+                        <span>2 x 1 </span>
+                        <span>Rs. 5000</span>
+                    </div>
+                    <p>ARTIST NAME</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
 
                 <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+                <div class="picture">
+                    <img src="https://i0.wp.com/www.graphicart-news.com/wp-content/uploads/2015/09/bern-the-alps2.jpg?resize=800%2C1204&ssl=1"
+                        alt="">
+
                 </div>
+                <div class="details">
+                    <p>A CITY</p>
+                    <div class="size-price">
+                        <span>2 X 3</span>
+                        <span>Rs. 17,500</span>
+                    </div>
+                    <p>ANONYMOUS</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
 
             </div>
 
             <div class="temporary">
 
-                <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+            <div class="catagories-box">
+                <div class="picture">
+                    <img src="https://www.virtosuart.com/images/2019/blog-new/modernart/Salvador-Dali-4640.png"
+                        alt="">
+
                 </div>
+                <div class="details">
+                    <p>SALVADOR</p>
+                    <div class="size-price">
+                        <span>2 x 3 </span>
+                        <span>Rs. 12,000</span>
+                    </div>
+                    <p>SALVADOR DALI</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
 
                 <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+                <div class="picture">
+                    <img src="https://media.istockphoto.com/photos/advance-of-inner-paint-picture-id521577939?k=20&m=521577939&s=612x612&w=0&h=0aqhf-XKLdANTQQFg2rbUNCQrKEBFSL4RYG-tm2r7Fw="
+                        alt="">
+
                 </div>
+                <div class="details">
+                    <p>SELF LOVE</p>
+                    <div class="size-price">
+                        <span>3 X 5 </span>
+                        <span>Rs. 20,000</span>
+                    </div>
+                    <p>ANONYMOUS</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
 
                 <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+                <div class="picture">
+                    <img src="https://cdn11.bigcommerce.com/s-x49po/images/stencil/500x659/products/5684/14277/52Figure40__50289.1506574078.JPG?c=2"
+                        alt="">
+
                 </div>
+                <div class="details">
+                    <p>NO NAME</p>
+                    <div class="size-price">
+                        <span>2 x 2 </span>
+                        <span>Rs. 6,900</span>
+                    </div>
+                    <p>RUKMATI DEVI</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
 
                 <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+                <div class="picture">
+                    <img src="https://images.saatchiart.com/saatchi/1340813/art/7484169/6553121-EEGCGRND-7.jpg"
+                        alt="">
+
                 </div>
+                <div class="details">
+                    <p>SHIV PARBATI</p>
+                    <div class="size-price">
+                        <span>2 x 3 </span>
+                        <span>Rs. 17,700</span>
+                    </div>
+                    <p>AKASH PANTHI</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
 
                 <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+                <div class="picture">
+                    <img src="https://images.unsplash.com/photo-1581352102070-b7d62164e147?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw5ODE0NTk5fHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+                        alt="">
+
                 </div>
+                <div class="details">
+                    <p>COLOR</p>
+                    <div class="size-price">
+                        <span>2 x 3 </span>
+                        <span>Rs. 8,500</span>
+                    </div>
+                    <p>MADHAV SUBEDI</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+
+            </div>
 
             </div>
 
             <div class="temporary">
 
-                <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+            <div class="catagories-box">
+                <div class="picture">
+                    <img src="https://fineartconnoisseur.com/wp-content/uploads/sites/2/2020/11/Zhang-OPAM-Christopher-Smile-Boy-12-x-9-3900-scaled.jpg"
+                        alt="">
+
                 </div>
+                <div class="details">
+                    <p>SMILE BOY</p>
+                    <div class="size-price">
+                        <span>2 x 3 </span>
+                        <span>Rs. 17,268</span>
+                    </div>
+                    <p>ZHANG CHRISTOPHER</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
 
                 <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+                <div class="picture">
+                    <img src="https://webneel.com/sites/default/files/images/project/Paintings%20of%20rural%20indian%20women%20-%20Oil%20painting%20(1).jpg"
+                        alt="">
+
                 </div>
+                <div class="details">
+                    <p>RURAL WOMAN</p>
+                    <div class="size-price">
+                        <span>2 x 3 </span>
+                        <span>Rs. 15,850</span>
+                    </div>
+                    <p>ANONYMOUS</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
 
                 <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+                <div class="picture">
+                    <img src="https://ii1.pepperfry.com/media/catalog/product/c/o/800x880/contemporary-art-handmade-oil-painting-on-canvas-framed-by-chaque-decor-contemporary-art-handmade-oi-id3ext.jpg"
+                        alt="">
+
                 </div>
+                <div class="details">
+                    <p>MITHILA ART</p>
+                    <div class="size-price">
+                        <span>2 x 2 </span>
+                        <span>Rs. 8,000</span>
+                    </div>
+                    <p>NANDAGOPAL SYAMI</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
 
                 <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
+                <div class="picture">
+                    <img src="https://i2.wp.com/zet.gallery/blog/wp-content/uploads/2016/02/Vicent-Van-Gogh-Starry-Night-Famous-Oil-Paintings-www.shairart.com_.jpg"
+                        alt="">
+
+                </div>
+                <div class="details">
+                    <p>STARRY NIGHT</p>
+                    <div class="size-price">
+                        <span>3 X 4</span>
+                        <span>Rs. 1,90,12,12,120</span>
                     </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+                    <p>Vincent van Gogh</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
                 </div>
 
+            </div>
+
                 <div class="catagories-box">
-                    <div class="picture">
-                        <img src="https://s3.amazonaws.com/gallerist-live/products/28836/large/beautiful-acrylic-painting.jpg?1571493057"
-                            alt="">
-                    </div>
-                    <div class="details">
-                        <p>PAINTING NAME</p>
-                        <div class="size-price">
-                            <span>2 x 2 </span>
-                            <span>Rs. 4000</span>
-                        </div>
-                        <p>ARTIST NAME</p>
-                        <div class="cart">
-                            <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
-                                        style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
-                        </div>
-                    </div>
+                <div class="picture">
+                    <img src="https://lr.mint.lgbt/img/i69egmvci7491.jpg"
+                        alt="">
                 </div>
+                <div class="details">
+                    <p>WILDFLOWERS</p>
+                    <div class="size-price">
+                        <span>2 x 3 </span>
+                        <span>Rs. 12,312</span>
+                    </div>
+                    <p>KRITESH SHAKYA</p>
+                </div>
+                <div class="cart">
+                    <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
+                                style="height: 15px; color: aliceblue; filter: invert(100%);"> ADD TO CART</button></a>
+                </div>
+            </div>
 
             </div>
         </div>

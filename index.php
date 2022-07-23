@@ -289,7 +289,7 @@
                         <span>3 X 4</span>
                         <span>Rs. 1,90,12,12,120</span>
                     </div>
-                    <p>ARTIST NAME</p>
+                    <p>Vincent van Gogh</p>
                 </div>
                 <div class="cart">
                     <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"
