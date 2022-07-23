@@ -15,7 +15,3 @@ Designed By **Nischal Dhakal**, **Ujjwal Dhakal** and **Madhav Khanal** as a col
 #### Tools used
 
 *MySql*
-
-#### Duration of Project
-
-1-2 months
