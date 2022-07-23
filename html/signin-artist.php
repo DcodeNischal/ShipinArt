@@ -120,9 +120,22 @@
 
 
                 <!-- SIGNIN PAGE -->
+            <?php
+                session_start();
 
+                //if logged in go to home page 
+                //else show signin page
 
-                <form action="" class="form loginn">
+                if(isset($_SESSION['artist_id']))
+                {
+                    //session exists redirect to artists home
+                    header('Location: artist_home.php');
+                }
+                else
+                {
+            ?>
+
+                 <form action="" class="form loginn">
                     <div class="input">
                         <input type="email" name="artistemail" id="login-artist-email" placeholder="Email"
                             autocomplete="off" required>
@@ -141,7 +154,9 @@
             </div>
         </div>
     </div>
-
+    <?php
+        }
+    ?>
     <!-- SEPERATOR -->
     <div class="seperator">
         <div class="seperatoro">

@@ -112,7 +112,20 @@
 
                 <!-- SIGNIN PAGE -->
 
+            <?php
+                session_start();
 
+                //if logged in go to home page 
+                //else show signin page
+
+                if(isset($_SESSION['artist_id']))
+                {
+                    //session exists redirect to customers home
+                    header('Location: customer_home.php');
+                }
+                else
+                {
+            ?>
                 <form action="" class="form loginn">
                     <div class="input">
                         <input type="email" name="customeremail" id="login-customer-email" placeholder="Email"
@@ -132,6 +145,9 @@
             </div>
         </div>
     </div>
+    <?php
+        }
+    ?>
 
     <!-- SEPERATOR -->
     <div class="seperator">

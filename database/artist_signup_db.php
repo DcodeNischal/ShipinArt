@@ -14,15 +14,10 @@
         //check for empty fields
         if(empty($name) || empty($email) || empty($upassword) || empty($dob))
         {
-            header("Location: signup.php?error=All fields required".'&name='.$name.'&email='.$email.'&dob='.$dob);
+            header("Location: signin-artist.php?error=All fields required".'&name='.$name.'&email='.$email.'&dob='.$dob);
         }
         else
         {
-            //check if email is valid, if not, redirect to signup page
-            //check if name is valid, if not, redirect to signup page
-            //check if password is valid, if not, redirect to signup page
-            //check if dob is valid, if not, redirect to signup page
-
             //check if email is already in use, if so, redirect to signup page
             include_once '../database/connect.php';
             $db = mysqli_select_db($connection, 'shipinArt');
@@ -30,7 +25,7 @@
             $result = mysqli_query($connection, $query);
             if(mysqli_num_rows($result) > 0)
             {
-                header('Location: signup.php?error=Email already in use' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
+                header('Location: sigin-artist.php?error=Email already in use' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
             }
             else
             {
@@ -56,10 +51,15 @@
                         }
                         else
                         {
-                            header('Location: signin.php?error=Image file type not supported' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
+                            header('Location: signin-artist.php?error=Image file type not supported' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
                             return;
                         }
                   }
+                }
+
+                if (move_uploaded_file($image_tmp_name, $image_path)) 
+                {
+                    $citizenship_front = $new_image_name;
                 }
 
                 if(isset($_FILES['citizenshipBack']))
@@ -81,41 +81,39 @@
                         }
                         else
                         {
-                            header('Location: signin.php?error=Image file type not supported' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
+                            header('Location: signin-artist.php?error=Image file type not supported' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
                             return;
                         }
                   }
                 }
 
-
-
                 if (move_uploaded_file($image_tmp_name, $image_path)) 
                 {
-                    $image = $new_image_name;
+                    $citizenship_back = $new_image_name;
                 }
 
                 //encrupt password
                 $upassword = md5($upassword);
 
                 //insert user into database
-                $query = "INSERT INTO artist( artist_name, artist_email, artist_phone, artist_address, user_image,  artist_password, artist_front_citizenship, artist_back_citizenship) VALUES ('$name', '$email', '$upassword', '$dob', '$image', '$registration_date', 'user')";
+                $query = "INSERT INTO artist( artist_name, artist_email, artist_phone, artist_address, user_image,  artist_password, artist_front_citizenship, artist_back_citizenship) VALUES ('$name', '$email', '$phone', '$address', '$upassword', '$citizenship_front', '$citizenship_back')";
                 $result = mysqli_query($connection, $query);
                 
                 if($result)
                 {
                    //redirect to login page
-                   header('Location: signin.php?error=You are now registered and can log in');
+                   header('Location: signin-artist.php.php?error=You are now registered and can log in');
                 }
                 else
                 {
-                    header('Location: signup.php?error=Something went wrong' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
+                    header('Location: signin-artist.php?error=Something went wrong' . '&name=' . $name . '&email=' . $email . '&dob=' . $dob);
                 }
             }
         }
     }
     else
     {
-        header("Location: signup.php");
+        header("Location: signin-artist.php.php");
     }
 
 ?>
