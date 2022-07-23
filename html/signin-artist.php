@@ -22,10 +22,10 @@
         <!-- MENU -->
         <div class="menu">
             <li><a href="/" class="animate-catagories">HOME</a></li>
-            <li><a href="/html/about.php" class="animate-catagories">ABOUT</a></li>
-            <li><a href="/html/catagories.php" class="animate-catagories">CATAGORIES</a></li>
+            <li><a href="about.php" class="animate-catagories">ABOUT</a></li>
+            <li><a href="catagories.php" class="animate-catagories">CATAGORIES</a></li>
             <li><a href="/" class="animate-catagories">SERVICES</a></li>
-            <li><a href="/html/team.php" class="animate-catagories">CONTACT</a></li>
+            <li><a href="team.php" class="animate-catagories">CONTACT</a></li>
         </div>
         <!-- LOGIN & SEARCH -->
         <div class="login-search">
