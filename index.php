@@ -17,15 +17,15 @@
         <!-- LOGO -->
         <div class="logo">
 
-            <a href="/">Shipin<span>Art</span></a>
+            <a href="../ShipinArt">Shipin<span>Art</span></a>
 
         </div>
         <!-- MENU -->
         <div class="menu">
-            <li><a href="/" class="animate-catagories">HOME</a></li>
+            <li><a href="../ShipinArt" class="animate-catagories">HOME</a></li>
             <li><a href="html/about.php" class="animate-catagories">ABOUT</a></li>
             <li><a href="html/catagories.php" class="animate-catagories">CATAGORIES</a></li>
-            <li><a href="/" class="animate-catagories">SERVICES</a></li>
+            <li><a href="../ShipinArt" class="animate-catagories">SERVICES</a></li>
             <li><a href="html/team.php" class="animate-catagories">CONTACT</a></li>
         </div>
         <!-- LOGIN & SEARCH -->
@@ -63,7 +63,7 @@
         <div class="acrylic-title top-image">
 
            <div class="holder">
-            <a href="/">
+            <a href="#acrylic">
                 <span>A</span>
                 <span>C</span>
                 <span>R</span>
@@ -79,7 +79,7 @@
         <div class="sketch-title top-image">
 
             <div class="holder">
-                <a href="/">
+                <a href="#sketches">
                     <span>S</span>
                     <span>K</span>
                     <span>E</span>
@@ -94,7 +94,7 @@
         <div class="modern-title top-image">
 
             <div class="holder">
-                <a href="/">
+                <a href="#modern">
                     <span>M</span>
                     <span>O</span>
                     <span>D</span>
@@ -109,7 +109,7 @@
         <div class="abstract-title top-image">
 
             <div class="holder">
-                <a href="/">
+                <a href="#acrylic">
                     <span>A</span>
                     <span>B</span>
                     <span>S</span>
@@ -126,7 +126,7 @@
         <div class="oil-title top-image">
 
            <div class="holder">
-            <a href="/">
+            <a href="#oil">
                 <span>O</span>
                 <span>I</span>
                 <span>L</span>
@@ -146,7 +146,7 @@
         </div>
     </div>
     <!-- 1st catagories -->
-    <div class="acrylic">
+    <div class="acrylic" id="acrylic">
         <div class="name">
             <span class="animate-title">ACRYLIC PAINTINGS</span>
         </div>
@@ -269,7 +269,7 @@
 
 
     <!-- 2nd catagories -->
-    <div class="acrylic">
+    <div class="acrylic" id="oil">
         <div class="name">
             <span class="animate-title">OIL PAINTINGS</span>
         </div>
@@ -395,7 +395,7 @@
 
     <!-- 3rd catagories -->
 
-    <div class="acrylic">
+    <div class="acrylic" id="modern">
         <div class="name">
             <span class="animate-title">MODERN ARTS</span>
         </div>
@@ -521,7 +521,7 @@
 
     <!-- 4th catagories -->
 
-    <div class="acrylic">
+    <div class="acrylic" id="sketches">
         <div class="name">
             <span class="animate-title">SKETCHES</span>
         </div>

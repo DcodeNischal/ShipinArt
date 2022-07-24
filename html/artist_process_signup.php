@@ -22,7 +22,8 @@
                 echo "\nreached not empty part";
             //check if email is already in use, if so, redirect to signup page
             include_once '../database/connect.php';
-            echo "\nreached connected database";                //
+            echo "\nreached connected database"; 
+            header('Location: ../index.php');              //
             $db = mysqli_select_db($connection, 'shipinArt');
             include_once '../database/artist_world.php';
             $query = "SELECT * FROM artist WHERE artist_email = '$email'";

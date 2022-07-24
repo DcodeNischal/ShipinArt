@@ -22,10 +22,10 @@
         </div>
         <!-- MENU -->
         <div class="menu">
-            <li><a href="/" class="animate-catagories">HOME</a></li>
+            <li><a href="../" class="animate-catagories">HOME</a></li>
             <li><a href="about.php" class="animate-catagories">ABOUT</a></li>
             <li><a href="catagories.php" class="animate-catagories">CATAGORIES</a></li>
-            <li><a href="/" class="animate-catagories">SERVICES</a></li>
+            <li><a href="../" class="animate-catagories">SERVICES</a></li>
             <li><a href="team.php" class="animate-catagories">CONTACT</a></li>
         </div>
         <!-- LOGIN & SEARCH -->
@@ -73,7 +73,6 @@
             <div class="description">
                 <div class="name">
                     <h2>Nischal Dhakal</h2>
-                    <p>Frontend Developer</p>
                     <div class="links">
                         <a href="https://www.linkedin.com/in/nischaldhakal/"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://www.github.com/dcodenischal"><i class="fab fa-github"></i></a>
@@ -96,7 +95,6 @@
             <div class="description">
                 <div class="name">
                     <h2>Ujjwal Dhakal</h2>
-                    <p>Backend Developer</p>
                     <div class="links">
                         <a href="https://www.linkedin.com/in/ujjwal-dhakal-567b13211/"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://github.com/Ujjwal-D"><i class="fab fa-github"></i></a>
@@ -118,7 +116,6 @@
             <div class="description">
                 <div class="name">
                     <h2>Madhav Khanal</h2>
-                    <p>Backend Developer</p>
                     <div class="links">
                         <a href="https://www.linkedin.com/in/nischaldhakal/"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://www.github.com/dcodenischal"><i class="fab fa-github"></i></a>
