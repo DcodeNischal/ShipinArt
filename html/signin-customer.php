@@ -118,7 +118,7 @@
                 //if logged in go to home page 
                 //else show signin page
 
-                if(isset($_SESSION['artist_id']))
+                if(isset($_SESSION['customer_id']))
                 {
                     //session exists redirect to customers home
                     header('Location: customer_home.php');
