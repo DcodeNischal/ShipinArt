@@ -69,7 +69,7 @@
                 <button class="toggleMove">Signup</button>
             </div>
             <div class="signup-form">
-                <form action="customer_signup.php" class="form signupp signupform" method="post">
+                <form action="customer_process_signup.php" class="form signupp signupform" method="post">
                     <div class="input">
                         <input type="text" name="FullName" id="customer-full-name" placeholder="Full Name"
                             autocomplete="off" required><span id="name-error-area"
@@ -80,7 +80,7 @@
                             id="email-error-area" style="color:red; font-size: medium;"></span>
                     </div>
                     <div class="input">
-                        <input type="text" name="cusromerphone" id="customer-phone" placeholder="Phone Number"
+                        <input type="text" name="customerphone" id="customer-phone" placeholder="Phone Number"
                             autocomplete="off" required><span id="phone-error-area"
                             style="color:red; font-size: medium;"></span>
                     </div>
