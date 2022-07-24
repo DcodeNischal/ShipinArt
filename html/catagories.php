@@ -170,7 +170,7 @@
                         <span>2 x 1 </span>
                         <span>Rs. 5000</span>
                     </div>
-                    <p>ARTIST NAME</p>
+                    <p>SUMIT MAHARA</p>
                 </div>
                 <div class="cart">
                     <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"

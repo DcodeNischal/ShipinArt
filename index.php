@@ -563,7 +563,7 @@
                         <span>2 x 1 </span>
                         <span>Rs. 2,500</span>
                     </div>
-                    <p>ARTIST NAME</p>
+                    <p>KAMALA ADHIKARI</p>
                 </div>
                 <div class="cart">
                     <a href="/"><button><img src="https://i.ibb.co/DgQRmPZ/opencart-brands.png" alt="cart"

@@ -126,7 +126,7 @@
                 else
                 {
             ?>
-                <form action="" class="form loginn">
+                <form action="../index.php" class="form loginn">
                     <div class="input">
                         <input type="email" name="customeremail" id="login-customer-email" placeholder="Email"
                             autocomplete="off" required>

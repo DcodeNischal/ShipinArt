@@ -51,10 +51,6 @@
     font-weight: 300;
 }
 
-.catagories-box:hover {
-    transform: scale(1);
-    transition: .8s;
-}
 
 .temporary .details span {
     color: black;
@@ -68,11 +64,6 @@
     display: flex;
     justify-content: center;
     background: rgb(94, 94, 94);
-    transform: scale(1);
-    transition: .8s;
-}
-
-.temporary .catagories-box .picture:hover {
     transform: scale(1);
     transition: .8s;
 }
@@ -133,6 +124,11 @@
     gap: 4em;
     margin-bottom: 3rem;
 
+}
+
+.catagories-box:hover{
+    transform:scale(1.2);
+    transition:.8s;
 }
 .navigation-buttons i{
     color: #fff;
