@@ -17,3 +17,4 @@ Designed By **Nischal Dhakal**, **Ujjwal Dhakal** and **Madhav Khanal** as a col
 *MySql*
 
 # Incomplete (Frontend Only)
+# Closed
